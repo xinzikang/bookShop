@@ -1,0 +1,20 @@
+body {
+  background-color: #e9dfc7;
+  text-align: left;
+  overflow: hidden;
+  width: 100%;
+}
+body #root {
+  width: 100%;
+}
+body #title {
+  font-size: 20px;
+  color: #736357;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #736357;
+}
+body #content {
+  font: 15px/30px '';
+  color: #555;
+  padding: 15px;
+}
