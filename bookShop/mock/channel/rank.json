@@ -1,0 +1,356 @@
+{
+  items: [
+    {
+      description: "北大心理课 正能量：正面情绪改变自己和他... 人性的弱点（无删改全译本）",
+      ranks: "501,502,500",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p013mwPpAcYy/dzC2UIPrO1irXA.jpg",
+      click: "",
+      logo: "",
+      id: 1,
+      name: "图书热销榜"
+    },
+    {
+      description: "活着（余华作品） 骄阳似我（上） 三体（全三册）",
+      ranks: "601,602,600",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01LqEubbLBh/yCOv5yEeR25Djv.jpg",
+      click: "",
+      logo: "",
+      id: 2,
+      name: "图书好评榜"
+    },
+    {
+      description: "如何阅读一本书 故事会（2017年3月下） 王阳明全集（简体注释版 全五...",
+      ranks: "701,702,700",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01wobyRspj6/QFsauFNyGn2tDN.jpg",
+      click: "",
+      logo: "",
+      id: 3,
+      name: "潜力新书榜"
+    },
+    {
+      description: "ifanr·Life（第四十... 知乎周刊·三月也是读书天（总... 三国演义",
+      ranks: "801",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01h9jikBf9v/LvtZPBb6AG0iAj.jpg",
+      click: "",
+      logo: "",
+      id: 4,
+      name: "免费图书榜"
+    },
+    {
+      description: "Ruby元编程、史记（蔡志忠版）、吃透道德经",
+      ranks: "200",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01x7is0X5my/HCzQJvkWtUoZWI.jpg",
+      click: "",
+      logo: "http://image.read.duokan.com/mfsv2/download/s010/p01wbuH8L68v/xAjM6oBUoPOEFx.png",
+      id: 6,
+      name: "豆瓣好评榜"
+    },
+    {
+      description: "从你的全世界路过、偷影子的人、阿弥陀佛么么哒",
+      ranks: "230",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01R46yZfF4A/hZM9q1MsjPKC6R.jpg",
+      click: "",
+      logo: "http://image.read.duokan.com/mfsv2/download/s010/p0115OOcHpvK/25UhIwQcYTjCpj.png",
+      id: 7,
+      name: "当当热销榜"
+    },
+    {
+      description: "哈佛口才课、笑死你的逻辑学、拆掉思维里的墙",
+      ranks: "210",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01wcMq9ivRd/ABUDCSwWZviFjA.jpg",
+      click: "",
+      logo: "http://image.read.duokan.com/mfsv2/download/s010/p01yPG6aOEHQ/gWf5G5B39WAiQ6.png",
+      id: 8,
+      name: "亚马逊热销榜"
+    },
+    {
+      description: "淡定的人生不寂寞：英汉对照、世界上最伟大的推销员大全集、沃顿商学院最受欢迎的谈判课",
+      ranks: "220",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01myIzBVE74/rNFIz3kefGSl1v.jpg",
+      click: "",
+      logo: "http://image.read.duokan.com/mfsv2/download/s010/p01EoafcOdge/73W02lu5bzjsiD.png",
+      id: 9,
+      name: "京东热销榜"
+    },
+    {
+      description: "焚天之怒 超级兵王在都市 我欲封天",
+      ranks: "2026,2036,2046",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Ar5CcnZdv/JBEseVT870uB5F.jpg",
+      click: "29947509 42028986 50345382",
+      logo: "",
+      id: 10,
+      name: "男生人气榜"
+    },
+    {
+      description: "极品全能小农民 焚天剑神 超级红包",
+      ranks: "2016",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ia6WV3Xbc/Hd0wu0q0CXchAE.jpg",
+      click: "3693755 586284 4118962",
+      logo: "",
+      id: 11,
+      name: "男生新书榜"
+    },
+    {
+      description: "法医娇妻：老公，验么 一世倾城：冷宫弃妃 婚后相爱：腹黑老公爆萌妻",
+      ranks: "2027,2037,2047",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01cj0aIlxo5/g4IDLv5dsUVCdk.jpg",
+      click: "131974089 117888655 85301113",
+      logo: "",
+      id: 12,
+      name: "女生人气榜"
+    },
+    {
+      description: "总裁大人要够了没 【完】涩染军婚 总裁的7日恋人",
+      ranks: "2017",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01IdpDFYPkH/O0yvNAYWfAFSfi.jpg",
+      click: "2713416 1241149 3479970",
+      logo: "",
+      id: 13,
+      name: "女生新书榜"
+    },
+    {
+      description: "我的亲亲老婆：豪门隐婚AA制 极品女仙 法医娇妻：老公，验么",
+      ranks: "2008",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Z58RElkfZ/7EIkc7Pd7sdGuZ.jpg",
+      click: "40957733 5543486 131974089",
+      logo: "",
+      id: 14,
+      name: "完本精品榜"
+    },
+    {
+      description: "界仙 说好的幸福呢 离婚后恋爱",
+      ranks: "2009",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p0100Nd5owlj/96mJqkfPUAmBUD.jpg",
+      click: "332377 119798 180540",
+      logo: "",
+      id: 15,
+      name: "特价畅销榜"
+    },
+    {
+      description: "超级兵王在都市 豪门宠婚：大明星的秘密恋人 绝命诱惑",
+      ranks: "2010",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01S5IOT5e93/0WmOXSdeFEcc2W.jpg",
+      click: "42028986 3514640 46780375",
+      logo: "",
+      id: 16,
+      name: "都市畅销榜"
+    },
+    {
+      description: "法医娇妻：老公，验么 婚后相爱：腹黑老公爆萌妻 豪门小老婆",
+      ranks: "2020",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01cj0aIlxo5/g4IDLv5dsUVCdk.jpg",
+      click: "131974089 85301113 119456107",
+      logo: "",
+      id: 17,
+      name: "言情畅销榜"
+    },
+    {
+      description: "焚天之怒 斗破苍穹 三界独尊",
+      ranks: "2030",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Ar5CcnZdv/JBEseVT870uB5F.jpg",
+      click: "29947509 40609789 10482752",
+      logo: "",
+      id: 18,
+      name: "玄幻畅销榜"
+    },
+    {
+      description: "一世倾城：冷宫弃妃 爆萌宠妃 神医贵女：盛世七皇妃",
+      ranks: "2040",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01XtmCruiAe/OGPpC1r9zANvx4.jpg",
+      click: "117888655 52125693 27255966",
+      logo: "",
+      id: 19,
+      name: "穿越畅销榜"
+    },
+    {
+      description: "斗破苍穹 校花的贴身高手 七界武神",
+      ranks: "11000,11002,11003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01mkWI9RI4H/8KrcvHGWu7J8SH.png",
+      click: "40609789 107351645 122284832",
+      logo: "",
+      id: 20,
+      name: "男生畅销榜"
+    },
+    {
+      description: "一世倾城：冷宫弃妃 嫡女重生：小妾不好欺 早安，总统大人！",
+      ranks: "11010,11012,11013",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p013EX562Y8F/DjhgOTmK3VY3of.png",
+      click: "117888655 9856 20832240",
+      logo: "",
+      id: 21,
+      name: "女生畅销榜"
+    },
+    {
+      description: "特种兵在都市 大主宰 都市贴心保镖",
+      ranks: "12001,12002,12003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01Yynmup0Bq/aPnWWsLde2HWGe.png",
+      click: "54455530 17561833 987950",
+      logo: "",
+      id: 22,
+      name: "男生人气榜"
+    },
+    {
+      description: "总裁大人的意外惊喜 【完】重生嫡女为妃 倾城绝宠：太子殿下太撩人",
+      ranks: "12011,12012,12013",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01EiEm6jjfX/saH0axX0SDwUw8.png",
+      click: "1667960 111604 56782",
+      logo: "",
+      id: 23,
+      name: "女生人气榜"
+    },
+    {
+      description: "透视小村医 最强突击兵 老九门",
+      ranks: "13001,13002,13003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01U0gODFcEx/NtFwgFMM62X2ux.png",
+      click: "1881366 57859 7479833",
+      logo: "",
+      id: 24,
+      name: "男生新书榜"
+    },
+    {
+      description: "老公，床要塌了！ 大将军的农门妻 夜夜霸爱：傲娇男神深深宠",
+      ranks: "13011,13012,13013",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p0166E5aeQHX/84MDnlJV0FHqDg.png",
+      click: "1296587 43382 503956",
+      logo: "",
+      id: 25,
+      name: "女生新书榜"
+    },
+    {
+      description: "白菜小农民 万古独尊 极品地主",
+      ranks: "14001,14002,14003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01CsDE9PFWk/7KendmWO90i9zl.png",
+      click: "423875 1340916 200320",
+      logo: "",
+      id: 26,
+      name: "男生飙升榜"
+    },
+    {
+      description: "倾城绝宠：太子殿下太撩人 嫡女重生：小妾不好欺 【完】重生嫡女为妃",
+      ranks: "14011,14012,14013",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01HtWeYwweb/amnKto5RXLIjdx.png",
+      click: "56782 9856 111604",
+      logo: "",
+      id: 27,
+      name: "女生飙升榜"
+    },
+    {
+      description: "斗破苍穹 焚天之怒 最强兵王",
+      ranks: "15000,15002,15003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01KYMF8O7NE/EtVkliD37e2mFk.png",
+      click: "40609789 29947509 12888775",
+      logo: "",
+      id: 28,
+      name: "男生完本榜"
+    },
+    {
+      description: "嫡女重生：小妾不好欺 豪门小老婆 法医娇妻：老公，验么",
+      ranks: "15010,15012,15013",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01lJ8ULWPDc/mPzNq4Ko5Vumkc.png",
+      click: "9856 119456107 131974089",
+      logo: "",
+      id: 29,
+      name: "女生完本榜"
+    },
+    {
+      description: "龙王传说 一念永恒 择天记",
+      ranks: "23001,23002,23003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p017M7dk4Dof/qrcrIz4HWC0FhP.png",
+      click: "8346742 3921458 9562813",
+      logo: "",
+      id: 30,
+      name: "男生热搜榜"
+    },
+    {
+      description: "隐婚100分：惹火娇妻嫁一送... 魔道祖师 斗破苍穹：第一诛神魔女",
+      ranks: "23011,23012,23013",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01wledOV6PQ/lOGD8p0ZcKr4vE.png",
+      click: "506384 75640 261370",
+      logo: "",
+      id: 31,
+      name: "女生热搜榜"
+    },
+    {
+      description: "总裁大人的意外惊喜 豪门小老婆 首席的独宠新娘",
+      ranks: "16001,16002,16003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01Yg5iauSkT/CQUzPwD0fQlWbY.png",
+      click: "1667960 119456107 7840984",
+      logo: "",
+      id: 32,
+      name: "女生豪门总裁榜"
+    },
+    {
+      description: "嫡女重生：小妾不好欺 至尊毒后 邪王追妻：废材逆天小姐",
+      ranks: "17001,17002,17003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p010WOG9xzH1/bJLkDMNfuJwpJP.png",
+      click: "9856 910736 36319644",
+      logo: "",
+      id: 33,
+      name: "女生穿越奇情榜"
+    },
+    {
+      description: "神医废材妃 卿本黑萌之妖妃来袭 鬼手天医",
+      ranks: "18002,18003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01cuJEAHqu8/ucBaPLYucOZoLI.png",
+      click: "4171185 1556013 7093056",
+      logo: "",
+      id: 34,
+      name: "女生幻想仙侠榜"
+    },
+    {
+      description: "校花的贴身高手 白菜小农民 异能小农民",
+      ranks: "19001,19002,19003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01bhHZwYNZp/Qpo8lqEYTD1Nws.png",
+      click: "107351645 423875 101288267",
+      logo: "",
+      id: 35,
+      name: "男生都市榜"
+    },
+    {
+      description: "大主宰 神尊始祖 七界武神",
+      ranks: "20001,20002,20003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01d97RayPDV/HEYFa3fMhAuWzq.png",
+      click: "17561833 1056 122284832",
+      logo: "",
+      id: 36,
+      name: "男生玄幻榜"
+    },
+    {
+      description: "盗墓笔记 鬼吹灯（盗墓者的经历） 与千年女鬼同居的日子",
+      ranks: "21001,21002,21003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01njrNiSluU/0eLGRNJQMfgCpQ.png",
+      click: "37757188 26298257 14810972",
+      logo: "",
+      id: 37,
+      name: "男生灵异悬疑榜"
+    },
+    {
+      description: "天影 我真是大明星 一念永恒",
+      ranks: "24003",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01wzrjNrE4s/TJp7HCRx8w6ZnG.png",
+      click: "41189 2069131 3921458",
+      logo: "",
+      id: 38,
+      name: "男生起点风云榜"
+    },
+    {
+      description: "邪王追妻：废材逆天小姐 隐婚100分：惹火娇妻嫁一送... 慕南枝",
+      ranks: "24013",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01FBZ8k05K4/qnLs0rEqMjRWbA.png",
+      click: "36319644 506384 3895",
+      logo: "",
+      id: 39,
+      name: "女生原创风云榜"
+    },
+    {
+      description: "宁小闲御神录 慕南枝 七零年，有点甜",
+      ranks: "24113",
+      cover: "http://image.read.duokan.com/mfsv2/download/fdsc3/p013rb2LzVBq/87ijM8kuTNdzDT.png",
+      click: "192850 3895 174",
+      logo: "",
+      id: 40,
+      name: "女生起点畅销榜"
+    }
+  ],
+  result: 0
+}

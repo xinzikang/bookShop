@@ -1,0 +1,4560 @@
+{
+  hash: "bf14136b12c5795d09244bb07b34e53b",
+  section: [
+    {
+      name: "图书分类",
+      key: "book"
+    },
+    {
+      name: "杂志分类",
+      key: "magazine"
+    },
+    {
+      name: "网文男频",
+      key: "male"
+    },
+    {
+      name: "网文女频",
+      key: "female"
+    }
+  ],
+  magazine: [
+    {
+      count: 12,
+      description: "",
+      image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01JE4npibRd/WzB2nLibBk4t32.jpg",
+      label: "新闻人物",
+      sid: 1,
+      category_id: "a9e148c8d57311e1b8f300163e0060da"
+    },
+    {
+      count: 25,
+      description: "",
+      image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01HQpjYFH2V/QsUHdxbiy2j4Fb.jpg",
+      label: "商业财经",
+      sid: 2,
+      category_id: "ade053b0d57311e1b8f300163e0060da"
+    },
+    {
+      count: 12,
+      description: "",
+      image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01EnrzYFNgJ/SIs0SwArDr88bL.jpg",
+      label: "育儿健康",
+      sid: 3,
+      category_id: "b32b004ad57311e1b8f300163e0060da"
+    },
+    {
+      count: 24,
+      description: "",
+      image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p017yZrHcyJY/pHlgYSCYD6fTkW.jpg",
+      label: "时尚生活",
+      sid: 4,
+      category_id: "b77e3d24d57311e1b8f300163e0060da"
+    },
+    {
+      count: 35,
+      description: "",
+      image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01LcrQdbcWJ/ieklRPNkXwGB4Z.jpg",
+      label: "娱乐休闲",
+      sid: 5,
+      category_id: "be73ac4ad57311e1b8f300163e0060da"
+    },
+    {
+      count: 34,
+      description: "",
+      image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01KGigSn3lL/Eb0FqqfYWTxDDf.jpg",
+      label: "教育科技",
+      sid: 6,
+      category_id: "c313609cd57311e1b8f300163e0060da"
+    },
+    {
+      count: 41,
+      description: "",
+      image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01GsXur3KNX/RxhbIiYXuPW5bR.jpg",
+      label: "文化艺术",
+      sid: 7,
+      category_id: "c7527d46d57311e1b8f300163e0060da"
+    },
+    {
+      count: 11,
+      description: "",
+      image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01maHL4b6iS/ffn7i16Ady23SJ.jpg",
+      label: "美食旅游",
+      sid: 8,
+      category_id: "ade52d726fb811e49a2900259099235c"
+    }
+  ],
+  book: [
+    {
+      count: 19,
+      description: "通过塑造人物、叙述故事、描写环境来反映生活、表达思想的一种文学体裁。",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01I1qCydD8P/SfONyvVh7Uw24X.jpg!s",
+          label: "言情",
+          new_image: "",
+          titles: "骄阳似我（上）、顾漫甜蜜三部曲520我爱你纪念版（...",
+          sid: 57,
+          category_id: "72e87d42cb4a11e1b8f300163e0060da",
+          book_count: 866
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01PW9YBDyHe/PLBoMk2Yhwbpc5.jpg!s",
+          label: "悬疑推理",
+          new_image: "",
+          titles: "周浩晖精选集（共10册）、嫌疑人X的献身、余罪：我...",
+          sid: 32,
+          category_id: "a8eeb9f6cb0e11e1b8f300163e0060da",
+          book_count: 946
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01yh5qA6V9e/A4xze7OxPu67uQ.jpg!s",
+          label: "科幻",
+          new_image: "",
+          titles: "三体（全三册）、星旅人、赡养人类（刘慈欣作品）、环...",
+          sid: 27,
+          category_id: "a271e670cb0e11e1b8f300163e0060da",
+          book_count: 294
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p010FWyEcPCJ/fUW0feRZPvNgqG.jpg!s",
+          label: "青春",
+          new_image: "",
+          titles: "刹那行年、草莓年华、最好的我们（全二册）、凉生，我...",
+          sid: 62,
+          category_id: "7603d35acb4a11e1b8f300163e0060da",
+          book_count: 376
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01gPmNNhofQ/uuNLHUu3R2t92U.jpg!s",
+          label: "职场",
+          new_image: "",
+          titles: "创业时代系列（全两册）、女秘书、杜拉拉升职记、别样...",
+          sid: 1397,
+          category_id: "c16d18b6f7c211e18ceb00163e0123ac",
+          book_count: 169
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01X7trQZ5BN/jgeD3S1p7TLvG8.jpg!s",
+          label: "武侠",
+          new_image: "",
+          titles: "吉祥纹莲花楼（全四册）、七种武器（全四册）、连城诀...",
+          sid: 22,
+          category_id: "982292becb0e11e1b8f300163e0060da",
+          book_count: 274
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p012bfoxNyYe/ZbXLPWMsCBGmW4.jpg!s",
+          label: "世界名著",
+          new_image: "",
+          titles: "变形记：卡夫卡中短篇小说选、了不起的盖茨比、陀思妥...",
+          sid: 82,
+          category_id: "8f928fe6cb4a11e1b8f300163e0060da",
+          book_count: 593
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p012tdcjwehJ/z3tqPlgUTzX0zA.jpg!s",
+          label: "军事",
+          new_image: "",
+          titles: "拿破仑、蒙哥马利、狼牙（狼牙系列）、狼群（全新修订...",
+          sid: 42,
+          category_id: "65a434b4cb4a11e1b8f300163e0060da",
+          book_count: 452
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01GNx7mu0M9/aclY27jZbyA8Eo.jpg!s",
+          label: "魔幻玄幻",
+          new_image: "",
+          titles: "天行健（全七册）、苍兰诀、雪中悍刀行（1—13册）...",
+          sid: 1062,
+          category_id: "5c18be20d6bb11e1876900163e0123ac",
+          book_count: 366
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01WiEpmmrUG/QuKMc5tOF1FJmx.jpg!s",
+          label: "恐怖惊悚",
+          new_image: "",
+          titles: "鬼话连篇 2、十宗罪 4、金棺陵兽、苗疆蛊事（全1...",
+          sid: 37,
+          category_id: "5de083fecb4a11e1b8f300163e0060da",
+          book_count: 291
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p018I62lRry4/11b7Jug2W3ilKS.jpg!s",
+          label: "情感",
+          new_image: "",
+          titles: "从你的全世界路过（试读版）、小别离、偷影子的人、乖...",
+          sid: 1478,
+          category_id: "337e6d58145d11e3960d00259099235c",
+          book_count: 419
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01fzLdi9E4k/DoKHf6Y9z1xr3i.jpg!s",
+          label: "官场",
+          new_image: "",
+          titles: "掌舵三部曲（共三册）、省委大院、沧浪之道三部曲（共...",
+          sid: 47,
+          category_id: "68e18da2cb4a11e1b8f300163e0060da",
+          book_count: 158
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01kh9RgTkbb/jF6so015udtOK6.jpg!s",
+          label: "历史",
+          new_image: "",
+          titles: "张居正（全四册）、山海经密码（全五册）、血腥的盛唐...",
+          sid: 52,
+          category_id: "6cdfe840cb4a11e1b8f300163e0060da",
+          book_count: 385
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01LQPjIPQOi/4JHTSsJaT56k60.jpg!s",
+          label: "影视",
+          new_image: "",
+          titles: "杉杉来吃、何以笙箫默、夏有乔木 雅望天堂（全三册）...",
+          sid: 1402,
+          category_id: "c74e9f2af7c211e18ceb00163e0123ac",
+          book_count: 193
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01WB3Z3M3lh/kNYssnLUEmYZgy.jpg!s",
+          label: "社会",
+          new_image: "",
+          titles: "岛上书店、摆渡人、每天读点中华圣贤经、人在风里、我...",
+          sid: 1475,
+          category_id: "92297176f8cf11e2b8ff00259099235c",
+          book_count: 1494
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01VXf1msk2q/RtXjdDkb3q1UVf.jpg!s",
+          label: "中国名著",
+          new_image: "",
+          titles: "红楼梦（竖版）、水浒传（竖版）、西游记（竖版）、封...",
+          sid: 67,
+          category_id: "7c2ef368cb4a11e1b8f300163e0060da",
+          book_count: 179
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ckiolpIPU/StGCGj1OFlCRN2.jpg!s",
+          label: "近现代",
+          new_image: "",
+          titles: "呐喊、彷徨、呼兰河传、沉沦、迷羊、生死场、掌上开花...",
+          sid: 72,
+          category_id: "8464e5a6cb4a11e1b8f300163e0060da",
+          book_count: 88
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ceEoDSK4V/AKHh2oF1LhweSo.jpg!s",
+          label: "当代",
+          new_image: "",
+          titles: "狼图腾：纪念版、夹边沟记事、小小说30年精华本：中...",
+          sid: 77,
+          category_id: "8bee2e5ecb4a11e1b8f300163e0060da",
+          book_count: 1031
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Eg9d3ldZx/IC5l9Q4eqGggRW.jpg!s",
+          label: "外国",
+          new_image: "",
+          titles: "动物农庄、解忧杂货店、福尔摩斯探案全集（4册）、失...",
+          sid: 137,
+          category_id: "56f94df6d0c111e1b8f300163e0060da",
+          book_count: 577
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01SghCis0lW/QvRMucxWG9tmu8.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p012bfoxNyYe/ZbXLPWMsCBGmW4.jpg!s",
+      label: "小说",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01uN0YC2PvC/Fbm0mmTSEgxKwi.jpg",
+      titles: "变形记：卡夫卡中短篇小说选、刹那行年、从你的全世界...",
+      sid: 14,
+      category_id: "98412a3eed1f47c2a07099837d73df5c",
+      book_count: 13862
+    },
+    {
+      count: 7,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ZUTeYOkEs/bqBoeQwv5l8SZk.jpg!s",
+          label: "经济学",
+          new_image: "",
+          titles: "钓愚：操纵与欺骗的经济学、斯坦福极简经济学、资本论...",
+          sid: 162,
+          category_id: "0980231ed0c211e1b8f300163e0060da",
+          book_count: 1311
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01TxK4xZ2KJ/6yrL4obSaoNYDW.jpg!s",
+          label: "管理学",
+          new_image: "",
+          titles: "解决问题最简单的方法、干法、结构思考力、第五项修炼...",
+          sid: 167,
+          category_id: "0d242cead0c211e1b8f300163e0060da",
+          book_count: 757
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01v5Elp6u99/yxtpuFD2iUNYRQ.jpg!s",
+          label: "投资理财",
+          new_image: "",
+          titles: "指数基金投资指南（雪球「岛」系列）、股票作手回忆录...",
+          sid: 177,
+          category_id: "1f5f838cd0c211e1b8f300163e0060da",
+          book_count: 876
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p019nBEh1XoK/BuDiQUkNpTs6A8.jpg!s",
+          label: "企业管理",
+          new_image: "",
+          titles: "项目计划、进度与控制、建立餐饮经营概念的第一本书：...",
+          sid: 172,
+          category_id: "14fb969cd0c211e1b8f300163e0060da",
+          book_count: 984
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01QqgzQY2O3/5w8ApDeV4PaLdF.jpg!s",
+          label: "市场营销",
+          new_image: "",
+          titles: "史玉柱自述：我的营销心得（剑桥增补版）、信任五环：...",
+          sid: 192,
+          category_id: "30f48192d0c211e1b8f300163e0060da",
+          book_count: 624
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p011xpkNumR0/0RF6UIwgOVPevZ.jpg!s",
+          label: "商务谈判",
+          new_image: "",
+          titles: "商业计划宝典：如何撰写结果驱动型商业计划书、心有理...",
+          sid: 217,
+          category_id: "4f36db0ad0c211e1b8f300163e0060da",
+          book_count: 43
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ASiWyhtsn/VUiNFAbEWDSX27.jpg!s",
+          label: "领导学",
+          new_image: "",
+          titles: "中层领导力（全三册）、被领导的艺术、管人很重要，用...",
+          sid: 232,
+          category_id: "5cd11f6ed0c211e1b8f300163e0060da",
+          book_count: 105
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01guaKN4iYV/9oJq2NCkIVnHww.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01YDKhYWDH5/ygrB9BCI3yjK3c.jpg!s",
+      label: "经管",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01ftXpUQKLb/clCsUj9P5VP1nA.jpg",
+      titles: "吴晓波经济史大合集（激荡三十年｜跌荡一百年｜浩荡两...",
+      sid: 5,
+      category_id: "e6c24853a8a642d181d9b6e46239a29e",
+      book_count: 8663
+    },
+    {
+      count: 23,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01Os6dRQj5V/zAADjv5Y2YJexA.jpg!s",
+          label: "成功学",
+          new_image: "",
+          titles: "没试够100次，别说你有梦想、谁动了我的奶酪、别听...",
+          sid: 612,
+          category_id: "8621db24d57211e1b8f300163e0060da",
+          book_count: 378
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01KCAtMPeJM/aKUMQD4fwEbApX.jpg!s",
+          label: "为人处世",
+          new_image: "",
+          titles: "从一个微笑开始、别人不说，你一定要懂的人情世故、梦...",
+          sid: 617,
+          category_id: "89192f1cd57211e1b8f300163e0060da",
+          book_count: 334
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01CSiOhDJKw/kEImWNNMo1y7bb.jpg!s",
+          label: "心灵读物",
+          new_image: "",
+          titles: "极简生活：简而美地活、你对了，世界就对了、当下的力...",
+          sid: 622,
+          category_id: "8d5fce14d57211e1b8f300163e0060da",
+          book_count: 395
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01dAKhP5s6K/RwXltZqeDOYl5N.jpg!s",
+          label: "个人修养",
+          new_image: "",
+          titles: "52个改变、精进：如何成为一个很厉害的人、哈佛逆商...",
+          sid: 627,
+          category_id: "903ae1fad57211e1b8f300163e0060da",
+          book_count: 106
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01LvEOwNxqK/FS5dnPhuJzAnOa.jpg!s",
+          label: "个人形象",
+          new_image: "",
+          titles: "个人魅力完美私密教程、气场修炼术、影响力大师（第2...",
+          sid: 632,
+          category_id: "94202d3ed57211e1b8f300163e0060da",
+          book_count: 8
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01vKXF4AOn4/2J8M70MOEy5U4t.jpg!s",
+          label: "性格与习惯",
+          new_image: "",
+          titles: "专注：如何应对信息泛滥的当下、拖延症再见：知乎动机...",
+          sid: 637,
+          category_id: "981c25aad57211e1b8f300163e0060da",
+          book_count: 51
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01HLeYUGyrv/VgFjx6b7YE6BR9.jpg!s",
+          label: "思维与智力",
+          new_image: "",
+          titles: "多米尼克的记忆魔法书、秋叶：如何高效读懂一本书、罗...",
+          sid: 642,
+          category_id: "9cdd6284d57211e1b8f300163e0060da",
+          book_count: 136
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01wPQusHMjp/vK81iAA1Ey0KgJ.jpg!s",
+          label: "情商与情绪",
+          new_image: "",
+          titles: "情商（全六册）、自控术：如何管住自己的生活心理学、...",
+          sid: 647,
+          category_id: "a22bda04d57211e1b8f300163e0060da",
+          book_count: 118
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01n1qQl36cR/bBc4wvpLN4v3qA.jpg!s",
+          label: "人际与社交",
+          new_image: "",
+          titles: "洗脑术：怎样有逻辑地说服他人、冷读术：瞬间赢得他人...",
+          sid: 652,
+          category_id: "a78f0ca0d57211e1b8f300163e0060da",
+          book_count: 239
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01dMgLQcbZ8/gDrBHN1FOQYo0E.jpg!s",
+          label: "演讲与口才",
+          new_image: "",
+          titles: "攻心话术、练好口才的第一本书、句句说到心里去：直指...",
+          sid: 657,
+          category_id: "ac51d146d57211e1b8f300163e0060da",
+          book_count: 162
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ZwyzXnCBW/DPUkt8WlcYs0wK.jpg!s",
+          label: "人在职场",
+          new_image: "",
+          titles: "方法总比问题多（Mbook随身读）、第1次做业务就...",
+          sid: 662,
+          category_id: "b0cebdb0d57211e1b8f300163e0060da",
+          book_count: 370
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01K0IAHLi4i/gj6fxYhFmdeUCc.jpg!s",
+          label: "创业必修",
+          new_image: "",
+          titles: "理想是用来实现的：马云写给年轻人的创业真经、零资金...",
+          sid: 667,
+          category_id: "b6eaeb9cd57211e1b8f300163e0060da",
+          book_count: 33
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01hvzhSbBBb/sL9BJolOvOStxa.jpg!s",
+          label: "时间管理",
+          new_image: "",
+          titles: "为什么精英都是清单控、善用时间：90天重塑习惯升级...",
+          sid: 672,
+          category_id: "ba7fde98d57211e1b8f300163e0060da",
+          book_count: 45
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01hGBOFxTh6/cGziZKKc72XgRC.jpg!s",
+          label: "出国留学",
+          new_image: "",
+          titles: "你不知道的美国留学、澳妙无穷：探寻澳大利亚名校之旅...",
+          sid: 677,
+          category_id: "be3a9a46d57211e1b8f300163e0060da",
+          book_count: 13
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01KaM1NvHH9/SHSQq9aaLHHvh7.jpg!s",
+          label: "销售技巧",
+          new_image: "",
+          titles: "文案训练手册、打造销售人脉的终极技巧、脑洞大开的文...",
+          sid: 682,
+          category_id: "c3bcead2d57211e1b8f300163e0060da",
+          book_count: 16
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01B8PQGb7qr/UaffEbuvBKHARJ.jpg!s",
+          label: "智慧格言",
+          new_image: "",
+          titles: "负负得正的人生奥义书、冯友兰人生智慧书、语录中国、...",
+          sid: 687,
+          category_id: "c8a6038ad57211e1b8f300163e0060da",
+          book_count: 31
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01vuXMZlctH/wuCe3LaHUJlznH.jpg!s",
+          label: "励志小品",
+          new_image: "",
+          titles: "穷小子的翻身日记、为乐趣而读书（悦读季系列·名家经...",
+          sid: 692,
+          category_id: "d0606f16d57211e1b8f300163e0060da",
+          book_count: 46
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01595g7eFn2/aLaVsmQds0BlRT.jpg!s",
+          label: "男性励志",
+          new_image: "",
+          titles: "男人赢在年轻时、20几岁的人生必修课：男人篇、好女...",
+          sid: 697,
+          category_id: "d3f2b31ed57211e1b8f300163e0060da",
+          book_count: 15
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01BFWkuzW7F/RNhix5mRN1gzqK.jpg!s",
+          label: "女性励志",
+          new_image: "",
+          titles: "掌握一生幸福的主动力、请尊重一个姑娘的努力、按自己...",
+          sid: 702,
+          category_id: "d80cfa40d57211e1b8f300163e0060da",
+          book_count: 241
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p016W5BWMFLM/G1vyBYoHwxyjht.jpg!s",
+          label: "青少年励志",
+          new_image: "",
+          titles: "你所谓的稳定，不过是在浪费生命、谁的青春不迷茫 3...",
+          sid: 707,
+          category_id: "db64272cd57211e1b8f300163e0060da",
+          book_count: 208
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01zELFP7VQq/spU2neclY4oJfV.jpg!s",
+          label: "名人励志",
+          new_image: "",
+          titles: "梦在青春在：写给在路上追梦的你、奋斗是一种信仰：艾...",
+          sid: 712,
+          category_id: "dedd735ed57211e1b8f300163e0060da",
+          book_count: 63
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01orlWcjkkd/DwyGhVPVI7EIcV.jpg!s",
+          label: "大师谈励志",
+          new_image: "",
+          titles: "大圆满前行、偶遇大师，人生从此不迷茫、人性的弱点（...",
+          sid: 717,
+          category_id: "e29483ded57211e1b8f300163e0060da",
+          book_count: 19
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p019eWXG2xhv/K1Zo71NZ3Ng4jm.jpg!s",
+          label: "文明礼仪",
+          new_image: "",
+          titles: "外交官说礼仪、品位致胜：重新定位商业领袖的成功形象...",
+          sid: 722,
+          category_id: "e62bff54d57211e1b8f300163e0060da",
+          book_count: 27
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01aKiQ5hJwY/1H2mnkeT9K07II.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01KCAtMPeJM/aKUMQD4fwEbApX.jpg!s",
+      label: "成功励志",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01UobfDyXpt/lVXNSzY9bPmjP8.jpg",
+      titles: "从一个微笑开始、没试够100次，别说你有梦想、羊皮...",
+      sid: 8,
+      category_id: "5b4d95aa5d16465390e213157fd2c4fe",
+      book_count: 5922
+    },
+    {
+      count: 9,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p018vRnIBc3Y/EiqC4wQVmdVKTL.jpg!s",
+          label: "哲学与宗教",
+          new_image: "",
+          titles: "万万没想到：用理工科思维理解世界、厚黑学、哲学家们...",
+          sid: 877,
+          category_id: "7fa24346d57311e1b8f300163e0060da",
+          book_count: 1149
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01AaTSCTKr7/qDcDYTzNeEuTqk.jpg!s",
+          label: "社会学",
+          new_image: "",
+          titles: "TED思想的力量系列（共5册）、失控（东西文库）、...",
+          sid: 882,
+          category_id: "84a0bf12d57311e1b8f300163e0060da",
+          book_count: 343
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01mx5wNW3MR/vUdft7iSpnr3t0.jpg!s",
+          label: "国学",
+          new_image: "",
+          titles: "史记（蔡志忠版）、万卷楼国学经典升级版（共八册）、...",
+          sid: 1172,
+          category_id: "5ab8b712de0211e1bb7b00163e0123ac",
+          book_count: 379
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p016Hjw5r19A/nrNGVwZyHW5AxK.jpg!s",
+          label: "语言文字",
+          new_image: "",
+          titles: "如何高效阅读、时评写作十讲、辩论守则、汉字，一酌水...",
+          sid: 887,
+          category_id: "88b1f7d8d57311e1b8f300163e0060da",
+          book_count: 88
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p011u088SMOK/jJrp3biH9MHPEd.jpg!s",
+          label: "文化",
+          new_image: "",
+          titles: "南渡北归（全六册）、菊与刀（果麦经典）、博尔赫斯谈...",
+          sid: 892,
+          category_id: "8c94c97ad57311e1b8f300163e0060da",
+          book_count: 743
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01rBQrXYm2e/mshtiYACDe87DS.jpg!s",
+          label: "教育",
+          new_image: "",
+          titles: "吾国教育病理、为师之道、科场现形记、有吸收力的心灵...",
+          sid: 897,
+          category_id: "8f9e6478d57311e1b8f300163e0060da",
+          book_count: 396
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01IvGbbPvtv/onEuXMF0qY2idC.jpg!s",
+          label: "新闻传播与出版",
+          new_image: "",
+          titles: "心相约（新版）、看见（试读版）、利比亚战地日记、咱...",
+          sid: 902,
+          category_id: "92b5624cd57311e1b8f300163e0060da",
+          book_count: 93
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01pX0dhyew1/8z7exND8GLz5sz.jpg!s",
+          label: "心理学",
+          new_image: "",
+          titles: "自控术：如何管住自己的生活心理学、梦的解析：最佳译...",
+          sid: 907,
+          category_id: "98b3a672d57311e1b8f300163e0060da",
+          book_count: 790
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p0164E0H9fRk/WoDwjo6CLiJSts.jpg!s",
+          label: "图书馆学",
+          new_image: "",
+          titles: "二十世纪图书馆与文化名人、文献学概要（修订本）、海...",
+          sid: 912,
+          category_id: "9b7731e4d57311e1b8f300163e0060da",
+          book_count: 4
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p016UV5Z2p7g/8XWAAvaQQxsMv4.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p018vRnIBc3Y/EiqC4wQVmdVKTL.jpg!s",
+      label: "人文社科",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01j8Axl8v21/59RlsKgXZqPBq8.jpg",
+      titles: "万万没想到：用理工科思维理解世界、厚黑学、自控术：...",
+      sid: 2,
+      category_id: "c644943f9a8b4710b410385679a07dcd",
+      book_count: 6799
+    },
+    {
+      count: 12,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01STqQqTFKp/E8QB2nmHW2llal.jpg!s",
+          label: "文学理论",
+          new_image: "",
+          titles: "什么是杰作：拒绝平庸的文学阅读指南、当代西方后经典...",
+          sid: 337,
+          category_id: "876c25eed57111e1b8f300163e0060da",
+          book_count: 173
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01P6GUIDFLV/NCg9hqvGPv5bql.jpg!s",
+          label: "文学评论与鉴赏",
+          new_image: "",
+          titles: "雪隐鹭鸶：《金瓶梅》的声色与虚无、王谢堂前的燕子：...",
+          sid: 342,
+          category_id: "8bc96818d57111e1b8f300163e0060da",
+          book_count: 309
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01IQyEwEArj/M8L7eXgwP8YBU1.jpg!s",
+          label: "文学史",
+          new_image: "",
+          titles: "文学的故事（中小学生必读丛书）、续子不语、二拍（中...",
+          sid: 347,
+          category_id: "9156f228d57111e1b8f300163e0060da",
+          book_count: 53
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01rBQrXYm2e/G8yLimgXSaX5hD.jpg!s",
+          label: "名家作品及欣赏",
+          new_image: "",
+          titles: "曾国藩家书、顾城作品精选、警世钟、王小波全集（全十...",
+          sid: 352,
+          category_id: "94269b5cd57111e1b8f300163e0060da",
+          book_count: 131
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p010gfjkdZhJ/9AWTV77Wto0tfI.jpg!s",
+          label: "作品集",
+          new_image: "",
+          titles: "感谢梦想、鲁迅全集、阿弥陀佛么么哒、安伯托·艾柯经...",
+          sid: 357,
+          category_id: "9a66091cd57111e1b8f300163e0060da",
+          book_count: 999
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01T0saAtSj5/9JHMdboWATaQj0.jpg!s",
+          label: "散文随笔",
+          new_image: "",
+          titles: "花间美文、皮囊、傅雷家书（全新修订版）、白说、先谋...",
+          sid: 362,
+          category_id: "9dc8e32cd57111e1b8f300163e0060da",
+          book_count: 1813
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01aT0Gv99rL/fl3cnFy8QgvuuB.jpg!s",
+          label: "影视文学",
+          new_image: "",
+          titles: "行云纪：《刺客聂隐娘》拍摄侧录、在电影院遇见弗洛伊...",
+          sid: 367,
+          category_id: "a190c830d57111e1b8f300163e0060da",
+          book_count: 32
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01LDlx4ib1f/878fBqqtUrBii1.jpg!s",
+          label: "诗歌词曲",
+          new_image: "",
+          titles: "云游、人间词话（多看版）、设计诗、繁星·春水（成长...",
+          sid: 372,
+          category_id: "a60f03d6d57111e1b8f300163e0060da",
+          book_count: 563
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01DmCOclWrs/kecEGRrIJRGVM4.jpg!s",
+          label: "纪实文学",
+          new_image: "",
+          titles: "小偷回忆录（修订版）、深度：惊心动魄三十多年国运家...",
+          sid: 377,
+          category_id: "aa7ce866d57111e1b8f300163e0060da",
+          book_count: 330
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01Ybg0uqn9w/Z46WRCA6lO71BG.jpg!s",
+          label: "戏剧与曲艺",
+          new_image: "",
+          titles: "哈姆雷特（朱生豪译）、大先生、威尼斯商人（朱生豪译...",
+          sid: 382,
+          category_id: "aeaaf284d57111e1b8f300163e0060da",
+          book_count: 78
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01KmZdN2Kfy/Oi8RMcX2nYaA36.jpg!s",
+          label: "青春文学",
+          new_image: "",
+          titles: "白昼之月、珠联“碧”合、岁月是朵两生花、宠猫养成记...",
+          sid: 1307,
+          category_id: "0208fc58f26b11e1b0a700163e0123ac",
+          book_count: 378
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01EoELa13e5/fS7mpjqhabhpY6.jpg!s",
+          label: "民间文学",
+          new_image: "",
+          titles: "笑林广记、山中的糖果、钱文忠集：钱文忠品读人与城、...",
+          sid: 387,
+          category_id: "b36263fcd57111e1b8f300163e0060da",
+          book_count: 113
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01WaDnAscXi/CiUKWShpnABtV5.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p010gfjkdZhJ/9AWTV77Wto0tfI.jpg!s",
+      label: "文学",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p011F5fhd2Dj/D9v0OaGbijhLCu.jpg",
+      titles: "感谢梦想、鲁迅全集、曾国藩家书、花间美文、皮囊、阿...",
+      sid: 3,
+      category_id: "18e77ec84d514c67aa0512f8a199fd85",
+      book_count: 10063
+    },
+    {
+      count: 18,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01vSHXJjSJY/6nBoAcRiFNB8KX.jpg!s",
+          label: "计算机科学理论",
+          new_image: "",
+          titles: "信息简史、编程语言实现模式、图灵的秘密、计算机网络...",
+          sid: 247,
+          category_id: "8671b272d57011e1b8f300163e0060da",
+          book_count: 31
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01JewsgmN8Q/DwqEQH9d9I9ooV.jpg!s",
+          label: "家庭与计算机",
+          new_image: "",
+          titles: "操作系统原理及实验、文档之美：打造优秀的Word文...",
+          sid: 252,
+          category_id: "8e5eba7ad57011e1b8f300163e0060da",
+          book_count: 71
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01KeIwA1cBC/7sZ753xsc54zkW.jpg!s",
+          label: "办公与计算机",
+          new_image: "",
+          titles: "秋叶PPT三分钟教程 第006期、办公软件高级应用...",
+          sid: 257,
+          category_id: "92fab8fed57011e1b8f300163e0060da",
+          book_count: 76
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ZO03AaOfk/SPio3rymnaKify.jpg!s",
+          label: "考试与认证",
+          new_image: "",
+          titles: "Photoshop 6.0 图像处理、Excel ...",
+          sid: 262,
+          category_id: "97380ffcd57011e1b8f300163e0060da",
+          book_count: 14
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01pWH8Iqka5/y8pXSxwM66Jbqo.jpg!s",
+          label: "图形图像、动画、多媒体与网页开发",
+          new_image: "",
+          titles: "简约至上、Photoshop CS6从入门到精通、...",
+          sid: 267,
+          category_id: "9c521aaad57011e1b8f300163e0060da",
+          book_count: 130
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p016ZE6BDIHC/BILeeJxcYncWUC.jpg!s",
+          label: "操作系统",
+          new_image: "",
+          titles: "Docker进阶与实战、跟老男孩学Linux运维：...",
+          sid: 272,
+          category_id: "a6426754d57011e1b8f300163e0060da",
+          book_count: 48
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01HAUsGoHdO/DS9zuec7f6Y0pi.jpg!s",
+          label: "程序语言与软件开发",
+          new_image: "",
+          titles: "Java程序员，上班那点事儿、冒号课堂：编程范式与...",
+          sid: 277,
+          category_id: "aa1ae892d57011e1b8f300163e0060da",
+          book_count: 413
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01CEB2xsZ90/sx3BdlWoHr0aZC.jpg!s",
+          label: "数据库",
+          new_image: "",
+          titles: "Redis设计与实现、MongoDB权威指南（第2...",
+          sid: 282,
+          category_id: "b2c46f68d57011e1b8f300163e0060da",
+          book_count: 89
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01KplZ2bBUr/SCbHNcW1uDefrm.jpg!s",
+          label: "软件工程及软件方法学",
+          new_image: "",
+          titles: "结网、软件项目成功之道、Maven实战、推荐系统实...",
+          sid: 287,
+          category_id: "b63b4a40d57011e1b8f300163e0060da",
+          book_count: 67
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01X8YqIMuUJ/algwBpADdkusm7.jpg!s",
+          label: "网络与通讯",
+          new_image: "",
+          titles: "构建高性能Web站点（修订版）、大型网站技术架构：...",
+          sid: 292,
+          category_id: "be9332b6d57011e1b8f300163e0060da",
+          book_count: 90
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01HxXtJEd9b/DTrjG7DCqZcebM.jpg!s",
+          label: "计算机辅助",
+          new_image: "",
+          titles: "调试九法：软硬件错误的排查之道、看板方法：科技企业...",
+          sid: 297,
+          category_id: "c493987cd57011e1b8f300163e0060da",
+          book_count: 17
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p018BBqQqcL9/N3FmDWpg6YZUna.jpg!s",
+          label: "硬件、嵌入式开发",
+          new_image: "",
+          titles: "主板维修完全手册、MC9S12XS单片机原理及嵌入...",
+          sid: 302,
+          category_id: "c8ed6c7cd57011e1b8f300163e0060da",
+          book_count: 14
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01KNpWCs2K7/DRxoY0jBTDQbW0.jpg!s",
+          label: "安全与加密",
+          new_image: "",
+          titles: "白帽子讲Web安全、质数了不起：知乎刘巍然作品（知...",
+          sid: 307,
+          category_id: "cdf6aabcd57011e1b8f300163e0060da",
+          book_count: 35
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01JxJGhInr4/NxVEwNIaCnx4Qt.jpg!s",
+          label: "行业软件与应用",
+          new_image: "",
+          titles: "说服力：让你的PPT会说话、OpenStack部署...",
+          sid: 312,
+          category_id: "d1e6baead57011e1b8f300163e0060da",
+          book_count: 32
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p013PctgEzSl/B91lt8FHk7EFIs.jpg!s",
+          label: "信息系统",
+          new_image: "",
+          titles: "区域物流信息平台理论与实证、GIS与空间决策支持系...",
+          sid: 317,
+          category_id: "d7ab9c5cd57011e1b8f300163e0060da",
+          book_count: 7
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01O8zHWkxY7/osdD23Gw8B3tEB.jpg!s",
+          label: "计算机控制仿真与人工智能",
+          new_image: "",
+          titles: "IBM认知计算与人工智能、人工智能的未来、机器智能...",
+          sid: 322,
+          category_id: "db0b6300d57011e1b8f300163e0060da",
+          book_count: 32
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Um3sSJZfd/VEQJSZhiRimCrr.jpg!s",
+          label: "电子商务",
+          new_image: "",
+          titles: "微商软文创意手册、揭秘跨境电商、互联网运营之道、大...",
+          sid: 327,
+          category_id: "e898cb52d57011e1b8f300163e0060da",
+          book_count: 106
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01KplZ2bBUr/SCbHNcW1uDefrm.jpg!s",
+          label: "IT产业与文化",
+          new_image: "",
+          titles: "结网、浅谈日本 IT 行业：知乎苏菲作品（知乎「一...",
+          sid: 332,
+          category_id: "ec60062ed57011e1b8f300163e0060da",
+          book_count: 48
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01Dg8NrEBN8/sSLmEjW1qfUWO0.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01X8YqIMuUJ/algwBpADdkusm7.jpg!s",
+      label: "计算机",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01qbF8bTIoz/BmNk4BcHhbwtM7.jpg",
+      titles: "构建高性能Web站点（修订版）、白帽子讲Web安全...",
+      sid: 6,
+      category_id: "53b716776af242d88030853fc48c8257",
+      book_count: 1993
+    },
+    {
+      count: 13,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01qrOKbtbUE/lRVBIaFIQvUyAE.jpg!s",
+          label: "中国史",
+          new_image: "",
+          titles: "明朝那些事儿（全七册）、中国近代通史（全10册）、...",
+          sid: 727,
+          category_id: "f0e2478cd57211e1b8f300163e0060da",
+          book_count: 642
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p017u9TdNmai/1Z0iDhPfutInqf.jpg!s",
+          label: "世界总史",
+          new_image: "",
+          titles: "全球通史（全二册）、丝绸之路：一部全新的世界史、镜...",
+          sid: 732,
+          category_id: "f78c623ed57211e1b8f300163e0060da",
+          book_count: 75
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ziG95LuUx/xnKjzAtikp9N6o.jpg!s",
+          label: "欧洲史",
+          new_image: "",
+          titles: "英国（图说天下·世界历史系列）、古罗马（图说天下·...",
+          sid: 737,
+          category_id: "08f1f804d57311e1b8f300163e0060da",
+          book_count: 98
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01OcE3E716u/gnFi1inNoxQC5L.jpg!s",
+          label: "美洲史",
+          new_image: "",
+          titles: "加拿大通史、他们创造了美国：从蒸汽机到搜索引擎、印...",
+          sid: 742,
+          category_id: "0c1a14dad57311e1b8f300163e0060da",
+          book_count: 37
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01hu9McGWSM/afvnxiJ67uyzC4.jpg!s",
+          label: "亚洲史",
+          new_image: "",
+          titles: "东亚大历史：从远古到1945年的中日韩多角互动历史...",
+          sid: 747,
+          category_id: "1122d642d57311e1b8f300163e0060da",
+          book_count: 29
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01drzU5E8Bp/cyVKhCRx1WPRQX.jpg!s",
+          label: "非洲史",
+          new_image: "",
+          titles: "古埃及（图说天下·世界历史系列）、埃及通史、第二次...",
+          sid: 752,
+          category_id: "13fe120ad57311e1b8f300163e0060da",
+          book_count: 5
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01nb4pjtKo9/KJfOKTEZByAgKW.jpg!s",
+          label: "大洋洲史",
+          new_image: "",
+          titles: "我的澳洲故事：我是谁？",
+          sid: 757,
+          category_id: "1727ee56d57311e1b8f300163e0060da",
+          book_count: 1
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01lCcp1fBQ3/Vj0i8TGIRwSZZB.jpg!s",
+          label: "地方志史",
+          new_image: "",
+          titles: "陪都重庆：1938-1945、红雨：一个中国县域七...",
+          sid: 762,
+          category_id: "1bfa62a6d57311e1b8f300163e0060da",
+          book_count: 22
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01SFEjJTFyj/v3FgX70czPExmP.jpg!s",
+          label: "文化史",
+          new_image: "",
+          titles: "匈奴简史、东晋门阀政治、上瘾五百年：烟、酒、咖啡和...",
+          sid: 767,
+          category_id: "27a2a42ed57311e1b8f300163e0060da",
+          book_count: 46
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ApvZcqFat/wXp8GeLdqBGERF.jpg!s",
+          label: "史学理论",
+          new_image: "",
+          titles: "在历史的下降线行走、史学通论、明朝没有沈万三、学术...",
+          sid: 772,
+          category_id: "2b3bcf7ad57311e1b8f300163e0060da",
+          book_count: 29
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01DORQuHg1w/F9PUBqaXSiWrxP.jpg!s",
+          label: "风俗习惯",
+          new_image: "",
+          titles: "中国少数民族婚丧风俗、唐卡中的西藏史、十二国、现代...",
+          sid: 777,
+          category_id: "2eb60fd0d57311e1b8f300163e0060da",
+          book_count: 15
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01KZcQRrCPZ/HPgF4cEk0b3wr1.jpg!s",
+          label: "文物考古",
+          new_image: "",
+          titles: "近百年古城古墓发掘史、帝王陵密码、华夏生死书、西安...",
+          sid: 782,
+          category_id: "3226bc5ad57311e1b8f300163e0060da",
+          book_count: 32
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01sZNp2USt8/J2pTY7McIBzoaL.jpg!s",
+          label: "普及读物",
+          new_image: "",
+          titles: "我们的历史（全七册）、这个历史挺靠谱：袁腾飞讲历史...",
+          sid: 787,
+          category_id: "35b5f264d57311e1b8f300163e0060da",
+          book_count: 612
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01AHm5i3a0C/dyyVGvTwh72ZxE.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01qrOKbtbUE/lRVBIaFIQvUyAE.jpg!s",
+      label: "历史",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01g7bJVo3dZ/EsnozcSIljldAg.jpg",
+      titles: "明朝那些事儿（全七册）、我们的历史（全七册）、中国...",
+      sid: 12,
+      category_id: "fbc7a772a61840318d2995340dad227c",
+      book_count: 2688
+    },
+    {
+      count: 7,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01BqCeDSDzX/sTNCsuW4asyli4.jpg!s",
+          label: "美食",
+          new_image: "",
+          titles: "私房下饭菜、厨房大叔环球美食搜鲜记、字解日本：乡土...",
+          sid: 472,
+          category_id: "09bcd1a6d57211e1b8f300163e0060da",
+          book_count: 328
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01x1oHsUdsd/aWgtS2apasBtWE.jpg!s",
+          label: "养生保健",
+          new_image: "",
+          titles: "失眠实用偏方、老年护理、养眼就是养精神、脾虚的女人...",
+          sid: 462,
+          category_id: "01cb9446d57211e1b8f300163e0060da",
+          book_count: 806
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01lYlNOsS99/jPPY6FWjZx1YO2.jpg!s",
+          label: "孕产育儿",
+          new_image: "",
+          titles: "崔玉涛：宝贝健康公开课、妇产科男医生告诉你：让你含...",
+          sid: 452,
+          category_id: "f9fcaeb2d57111e1b8f300163e0060da",
+          book_count: 241
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01YkVbnjtcf/u0yP5wW2U0OzfE.jpg!s",
+          label: "亲子家教",
+          new_image: "",
+          titles: "别以为你懂孩子的心、认清自己，才能教育出好孩子：第...",
+          sid: 457,
+          category_id: "fdf276dcd57111e1b8f300163e0060da",
+          book_count: 528
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01XGOp65I9k/1lydEKXdHR7zeA.jpg!s",
+          label: "家居休闲",
+          new_image: "",
+          titles: "钱来来理财记、和田玉把玩艺术、四季养花实用宝典、家...",
+          sid: 467,
+          category_id: "05b690b0d57211e1b8f300163e0060da",
+          book_count: 176
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01j1iHrcU1n/HofM4YfK8X43mT.jpg!s",
+          label: "时尚",
+          new_image: "",
+          titles: "一平米健身：硬派健身、用优衣库的价格穿出爱马仕的气...",
+          sid: 477,
+          category_id: "0c9ace8cd57211e1b8f300163e0060da",
+          book_count: 209
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p012hXSM0FEY/MRFMkgDY8L7mZO.jpg!s",
+          label: "娱乐",
+          new_image: "",
+          titles: "处女座说明书、最搞笑的脑筋急转弯（乐活族系列）、急...",
+          sid: 482,
+          category_id: "0f7712e6d57211e1b8f300163e0060da",
+          book_count: 119
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01PvTxOJfcn/RdS2890cGZEwbQ.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01x1oHsUdsd/aWgtS2apasBtWE.jpg!s",
+      label: "生活",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01flVRGfwE6/VSXDZbcmca7mBK.jpg",
+      titles: "失眠实用偏方、老年护理、一平米健身：硬派健身、幽默...",
+      sid: 10,
+      category_id: "5551d79cc7484cb89e1edffc9b099343",
+      book_count: 5809
+    },
+    {
+      count: 14,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01DNJyHjOJS/LpYNn5gg0BfzGC.jpg!s",
+          label: "幽默",
+          new_image: "",
+          titles: "流氓兔幽默与智慧、急诊科女超人、倒霉兔 2、鄙视我...",
+          sid: 1480,
+          category_id: "63e27c1e146c11e3960d00259099235c",
+          book_count: 64
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01TpwAtbZll/Kn6FcQU0oXCAcb.jpg!s",
+          label: "轻小说",
+          new_image: "",
+          titles: "天漫·轻小说（2013年04月号）、灵刻·幻光齿轮...",
+          sid: 1481,
+          category_id: "6900b5f8146c11e3960d00259099235c",
+          book_count: 31
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01CxpFGU4dQ/5PY4WVGlg3b0le.jpg!s",
+          label: "绘本",
+          new_image: "",
+          titles: "妮玛！这就是大学！、新浪微漫画 绘本（No.5）、...",
+          sid: 1447,
+          category_id: "e3a6acca23fb11e2959900163e0123ac",
+          book_count: 108
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01YP80TLubM/67IpOBIPkdf1Mp.jpg!s",
+          label: "大陆漫画",
+          new_image: "",
+          titles: "大话降龙（第1册）、老婆怀孕我干啥、暗恋那些事儿 ...",
+          sid: 1422,
+          category_id: "c822f69823fb11e2959900163e0123ac",
+          book_count: 224
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01mx5wNW3MR/vUdft7iSpnr3t0.jpg!s",
+          label: "港台漫画",
+          new_image: "",
+          titles: "史记（蔡志忠版）、雷人漫画 4、短路西游、韩非子说...",
+          sid: 1427,
+          category_id: "d1ecb16e23fb11e2959900163e0123ac",
+          book_count: 1227
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ZMsfb9hYu/SAussbmVYBgMRL.jpg!s",
+          label: "日韩漫画",
+          new_image: "",
+          titles: "那个夏天、人鱼泡泡 1、两个女人一个清朝大清开国与...",
+          sid: 1432,
+          category_id: "d685aec423fb11e2959900163e0123ac",
+          book_count: 14
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ADtcXLPxy/iYLcSPkuXmIcxw.jpg!s",
+          label: "欧美漫画",
+          new_image: "",
+          titles: "父与子（果麦经典）、你今天真好看、银带（The S...",
+          sid: 1437,
+          category_id: "db8b6ad023fb11e2959900163e0123ac",
+          book_count: 54
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01eLJaEAE2P/vRgpbPOBNs8QDM.jpg!s",
+          label: "连环画",
+          new_image: "",
+          titles: "慧梅出嫁·慧梅之死",
+          sid: 1452,
+          category_id: "e95cb95223fb11e2959900163e0123ac",
+          book_count: 1
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p0172PYU5Wr5/oxK8BuyUzLQmxQ.jpg!s",
+          label: "卡通画",
+          new_image: "",
+          titles: "环保剑（下）、环保剑（上）",
+          sid: 1457,
+          category_id: "ecb31a2423fb11e2959900163e0123ac",
+          book_count: 2
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01iKlWaStsC/ZMHOmI9EHnC1Yc.jpg!s",
+          label: "插图本",
+          new_image: "",
+          titles: "华胥引：纪念画册、三生三世十里桃花：纪念画册、话说...",
+          sid: 1462,
+          category_id: "f088860223fb11e2959900163e0123ac",
+          book_count: 3
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01DEy2zB0Se/hD3BYeviiw8gGo.jpg!s",
+          label: "杂志资讯",
+          new_image: "",
+          titles: "Bilibili - 乾杯~No.9、Bilibi...",
+          sid: 1473,
+          category_id: "6d98911cf5bd11e2851f00259099235c",
+          book_count: 34
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p011xpkNumR0/YbuVUXdIi5ppHN.jpg!s",
+          label: "同人作品",
+          new_image: "",
+          titles: "Vain Hope妄想本铺No.1",
+          sid: 1476,
+          category_id: "12b970eafe3c11e29c6b00259099235c",
+          book_count: 1
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Vj5sjMJep/yuteVOATUpMQt4.jpg!s",
+          label: "游戏",
+          new_image: "",
+          titles: "异形生存手册、大5那年：我的魔兽，我的兄弟、当李晓...",
+          sid: 1477,
+          category_id: "fd4c8880ff3211e294ed00259099235c",
+          book_count: 52
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01qTCMeOfAs/qpjvlRaI2R6h8Z.jpg!s",
+          label: "Cosplay",
+          new_image: "",
+          titles: "Costume Play繁花似锦No.1",
+          sid: 1474,
+          category_id: "b32e551ef5c111e2994f00259099235c",
+          book_count: 1
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01Dg8NrEBN8/4yAJfawEbkgAab.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01CxpFGU4dQ/5PY4WVGlg3b0le.jpg!s",
+      label: "动漫绘本",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01mF2DctlpM/BluRg2wpvrRXDl.jpg",
+      titles: "妮玛！这就是大学！、史记（蔡志忠版）、大话降龙（第...",
+      sid: 1417,
+      category_id: "8e246f6223fb11e2959900163e0123ac",
+      book_count: 2322
+    },
+    {
+      count: 14,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ww3NIeszZ/vjPYuP6nslofRO.jpg!s",
+          label: "财经人物",
+          new_image: "",
+          titles: "近观马云、雷军：我比别人多努力了一点点、沃兹传：与...",
+          sid: 487,
+          category_id: "21b74624d57211e1b8f300163e0060da",
+          book_count: 215
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01cnO23PsMK/Cyh4oDrAt9pbKC.jpg!s",
+          label: "历代帝王",
+          new_image: "",
+          titles: "大明王朝的七张面孔（全二册）、光武大帝：刘秀开国往...",
+          sid: 492,
+          category_id: "24ec04d8d57211e1b8f300163e0060da",
+          book_count: 83
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01JqzUhSjTG/q9M8PqPA8lUs03.jpg!s",
+          label: "领袖首脑",
+          new_image: "",
+          titles: "邓小平的故事、蒋介石传（全二册）、实录毛泽东 4（...",
+          sid: 497,
+          category_id: "2895d366d57211e1b8f300163e0060da",
+          book_count: 70
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01z67g5ElNt/dQ1Ypco3OKZShi.jpg!s",
+          label: "军事人物",
+          new_image: "",
+          titles: "战神粟裕、他影响了中国：陈云全传、彭大将军（关河五...",
+          sid: 502,
+          category_id: "2ce14176d57211e1b8f300163e0060da",
+          book_count: 64
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01l3LzENh3G/KbKcUgcXDVdXB5.jpg!s",
+          label: "政治人物",
+          new_image: "",
+          titles: "大谋小计五十年：诸葛亮传（全五册）、谋圣鬼谷子、杜...",
+          sid: 507,
+          category_id: "301ed876d57211e1b8f300163e0060da",
+          book_count: 303
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01aJnZrxOzc/tTPZeWQmDtwP0x.jpg!s",
+          label: "宗教人物",
+          new_image: "",
+          titles: "文殊菩萨传、悉达多、钟馗全传、朋霍费尔、念完哈佛念...",
+          sid: 512,
+          category_id: "356cbd52d57211e1b8f300163e0060da",
+          book_count: 48
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01akSUfRFKR/AG5kJRlpJAhvgX.jpg!s",
+          label: "女性人物",
+          new_image: "",
+          titles: "一问一世界、我坚信、三毛：千山万水的离歌、希拉里：...",
+          sid: 517,
+          category_id: "39358b80d57211e1b8f300163e0060da",
+          book_count: 129
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01xrJyQm2rG/QdyafhSXpLE02n.jpg!s",
+          label: "娱乐明星",
+          new_image: "",
+          titles: "成龙：还没长大就老了（修订版）、过得刚好、随遇而安...",
+          sid: 522,
+          category_id: "3d2464aad57211e1b8f300163e0060da",
+          book_count: 77
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p010Dsn0gDNE/UOGlHj3pGyVXBh.jpg!s",
+          label: "体育明星",
+          new_image: "",
+          titles: "姚明传、林书豪！从哈佛到全明星、穆里尼奥传、11枚...",
+          sid: 527,
+          category_id: "410b0f10d57211e1b8f300163e0060da",
+          book_count: 25
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01zJlfjKCAc/8oDZGij8lbT8DW.jpg!s",
+          label: "科学家",
+          new_image: "",
+          titles: "别逗了，费曼先生（走近费曼丛书）、爱因斯坦：想象颠...",
+          sid: 532,
+          category_id: "448de4bed57211e1b8f300163e0060da",
+          book_count: 58
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Piky5qEcE/PFGvFRIuberWAH.jpg!s",
+          label: "艺术家",
+          new_image: "",
+          titles: "台前幕后郭德纲（中国故事）、江青的往事往时往思、贾...",
+          sid: 537,
+          category_id: "471cd38ed57211e1b8f300163e0060da",
+          book_count: 95
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p014pXyKCpaY/4gZOkQvtHuFryH.jpg!s",
+          label: "文学家",
+          new_image: "",
+          titles: "苏东坡传：中国文人从政的标志性人生、路遥传、色·戒...",
+          sid: 542,
+          category_id: "4a2ac252d57211e1b8f300163e0060da",
+          book_count: 199
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01G3xM5jP2L/e0nBZQ1T0DADbG.jpg!s",
+          label: "学者",
+          new_image: "",
+          titles: "知行合一王阳明：1472-1529、心淡定，自从容...",
+          sid: 547,
+          category_id: "4c55ecaad57211e1b8f300163e0060da",
+          book_count: 139
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p012U1EMsezf/lCr7SXwb43NjrF.jpg!s",
+          label: "人物合集",
+          new_image: "",
+          titles: "家族（共七册，南方周末·中国故事）、封面民国：说说...",
+          sid: 552,
+          category_id: "4edfaf1ad57211e1b8f300163e0060da",
+          book_count: 213
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01X21lSwsSK/nhWVp8xuG3Au10.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01l3LzENh3G/KbKcUgcXDVdXB5.jpg!s",
+      label: "传记",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p0188rQMQqHB/WAEaaVEGlg7z1s.jpg",
+      titles: "大谋小计五十年：诸葛亮传（全五册）、成龙：还没长大...",
+      sid: 13,
+      category_id: "a054dde6c57741019a7045a92514d098",
+      book_count: 2273
+    },
+    {
+      count: 9,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01iHvXbU2D6/9i4PQXW4aPgFt7.jpg!s",
+          label: "玄幻奇幻",
+          new_image: "",
+          titles: "三生·神仙债（全二册）、别逃，花妖新娘、千回·夜（...",
+          sid: 97,
+          category_id: "c7cf1c84cb4b11e1b8f300163e0060da",
+          book_count: 35
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01CaUfTNAHi/vFbq92UDAK0A9R.jpg!s",
+          label: "武侠仙侠",
+          new_image: "",
+          titles: "总裁前夫杠上我：复婚大作战、体尊、灵动九天、升龙诀...",
+          sid: 102,
+          category_id: "cc850b58cb4b11e1b8f300163e0060da",
+          book_count: 19
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01wwVb8YqI0/CPizxLLJ3ZGkY5.jpg!s",
+          label: "都市生活",
+          new_image: "",
+          titles: "黑帮总裁、机灵宝宝 Ⅱ：爹地别抢我女人、红兜肚、今...",
+          sid: 107,
+          category_id: "d1956d90cb4b11e1b8f300163e0060da",
+          book_count: 34
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01IZsn0TWBh/70faBCjqbGqhMF.jpg!s",
+          label: "历史军事",
+          new_image: "",
+          titles: "四库精华：孙子兵法、世界历史探秘、周天：有苏化龙、...",
+          sid: 112,
+          category_id: "d7d103e0cb4b11e1b8f300163e0060da",
+          book_count: 39
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01RLVtigahO/DlDvZphbv4xieC.jpg!s",
+          label: "女性小说",
+          new_image: "",
+          titles: "妾本惊华、祸国（下）、代嫁狂妾、懒妃要休夫、那个流...",
+          sid: 132,
+          category_id: "eaad2f98cb4b11e1b8f300163e0060da",
+          book_count: 203
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01jY0PY5rPI/1LoHGmWnsXLTWt.jpg!s",
+          label: "古代言情",
+          new_image: "",
+          titles: "簪中录（全四册）、好一个国舅爷、令妃传之至爱方休、...",
+          sid: 1407,
+          category_id: "bcc672e218cb11e28f0b00163e0123ac",
+          book_count: 59
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p011DPzbXxfW/6t1npknz4ppG9Y.jpg!s",
+          label: "穿越架空",
+          new_image: "",
+          titles: "错孕逃妃、惑妻、史上最囧穿越：替身皇妃、爆笑穿越：...",
+          sid: 1412,
+          category_id: "c4b0bcf618cb11e28f0b00163e0123ac",
+          book_count: 68
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01izkA2FsQR/oJDXf8OEsfzGvd.jpg!s",
+          label: "游戏竞技",
+          new_image: "",
+          titles: "网游之无敌舰队",
+          sid: 117,
+          category_id: "dd13509ccb4b11e1b8f300163e0060da",
+          book_count: 1
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p0115Gkki0b3/nbHsazjltMu6iS.jpg!s",
+          label: "科幻灵异",
+          new_image: "",
+          titles: "尸房疯语、道听狐说话聊斋、灵杀2：饿狼传说、魔蟑、...",
+          sid: 122,
+          category_id: "e25406aacb4b11e1b8f300163e0060da",
+          book_count: 13
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01A6yrTL9Fg/nkLxBoy7tPegGu.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01jY0PY5rPI/1LoHGmWnsXLTWt.jpg!s",
+      label: "原创文学",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01In3Gw6VzF/bYnuLHS69keh4d.jpg",
+      titles: "簪中录（全四册）、眉姐：小男人遇上大女人、异世灵武...",
+      sid: 92,
+      category_id: "a4f66fd2cb4b11e1b8f300163e0060da",
+      book_count: 4516
+    },
+    {
+      count: 4,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p0102Ht0w3IP/NV5ZJQ4XxHWMon.jpg!s",
+          label: "两性关系",
+          new_image: "",
+          titles: "女生密码、假性亲密关系：知乎 Steve Shi ...",
+          sid: 142,
+          category_id: "5fcd6ab6d0c111e1b8f300163e0060da",
+          book_count: 140
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01kvjnZlAlD/L4h1STkJiwCv1E.jpg!s",
+          label: "恋爱",
+          new_image: "",
+          titles: "勾搭宝典（新版）、把妹圣经、欲情课（渡边淳一作品）...",
+          sid: 147,
+          category_id: "9223b0ced0c111e1b8f300163e0060da",
+          book_count: 81
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01YxlWWYu93/T9EhiHsqtRRrr0.jpg!s",
+          label: "婚姻",
+          new_image: "",
+          titles: "错爱：出轨男女的深度访谈、你敢天长，我就敢地久、婚...",
+          sid: 152,
+          category_id: "9598f8d6d0c111e1b8f300163e0060da",
+          book_count: 62
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01DgyvNzyIT/wZLD9sWpbFAow6.jpg!s",
+          label: "性知识",
+          new_image: "",
+          titles: "性爱高潮宝典、学校不教的性爱课、好色男女、两性健康...",
+          sid: 157,
+          category_id: "98fa2bb2d0c111e1b8f300163e0060da",
+          book_count: 15
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01AAiNIpcZP/bspKQzKS32Iv2w.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p0102Ht0w3IP/NV5ZJQ4XxHWMon.jpg!s",
+      label: "两性情感",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01iNVoZdkCQ/UMrOe4wP5ZyYWK.jpg",
+      titles: "女生密码、勾搭宝典（新版）、性爱高潮宝典、学校不教...",
+      sid: 4,
+      category_id: "5b22ccc04c3b4f64a8150cde6347e62f",
+      book_count: 558
+    },
+    {
+      count: 16,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01hNgi3XGoT/XMVJNOCUfmQ1cr.jpg!s",
+          label: "科普读物",
+          new_image: "",
+          titles: "黑洞战争、谣言粉碎机、北纬30°惊世大发现、自私的...",
+          sid: 1222,
+          category_id: "d2dfd670e79011e1bbc800163e0123ac",
+          book_count: 446
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01o6iCmtNUP/mVko91n1q5bvqQ.jpg!s",
+          label: "自然科学总论",
+          new_image: "",
+          titles: "写在物理边上：知乎傅渥成自选集、大中国上下五千年：...",
+          sid: 1227,
+          category_id: "d736b9d2e79011e1bbc800163e0123ac",
+          book_count: 20
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ctbhyEtf6/QCiIVVckvXafJ4.jpg!s",
+          label: "数学",
+          new_image: "",
+          titles: "统计思维：程序员数学之概率统计、微积分的历程：从牛...",
+          sid: 1237,
+          category_id: "ea938834e79011e1bbc800163e0123ac",
+          book_count: 20
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01xxyrduuTg/agfJ2Io3IcL7AA.jpg!s",
+          label: "物理学",
+          new_image: "",
+          titles: "相对论百问、走进费曼丛书（共6册）、QED：光和物...",
+          sid: 1242,
+          category_id: "ee660ca2e79011e1bbc800163e0123ac",
+          book_count: 17
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01PpOyDeG5i/YipXXKAqluT8Vn.jpg!s",
+          label: "化学",
+          new_image: "",
+          titles: "化学的智慧、你好，门捷列夫：知乎孙亚飞作品（知乎「...",
+          sid: 1247,
+          category_id: "f177ad24e79011e1bbc800163e0123ac",
+          book_count: 10
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01dnMimfbwX/5dfBAZqVbGz1Pk.jpg!s",
+          label: "天文学",
+          new_image: "",
+          titles: "系外行星漫游指南（科学圆桌系列）、揭示宇宙奥秘的1...",
+          sid: 1252,
+          category_id: "f49f0754e79011e1bbc800163e0123ac",
+          book_count: 18
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01W4YUfUZb7/dv7RDRPaNvi6im.jpg!s",
+          label: "地球科学",
+          new_image: "",
+          titles: "拿起来就放不下的80个自然地理之谜、中国“金钉子”...",
+          sid: 1257,
+          category_id: "f7b1df70e79011e1bbc800163e0123ac",
+          book_count: 3
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01GhlA4jdwm/9T3GiGvG7rh029.jpg!s",
+          label: "地理学",
+          new_image: "",
+          titles: "媒介地理学、从亚洲腹地到欧洲、全本绘图山海经·五藏...",
+          sid: 1262,
+          category_id: "fb4915cce79011e1bbc800163e0123ac",
+          book_count: 14
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01I7sKYHe8O/3fX8gktEoJhWSa.jpg!s",
+          label: "生物科学",
+          new_image: "",
+          titles: "基因解码：知乎葉一自选集、一场持久的论争：达尔文导...",
+          sid: 1267,
+          category_id: "fe6c591ce79011e1bbc800163e0123ac",
+          book_count: 28
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01EXidAW2wb/1e3yKoqlryzE9f.jpg!s",
+          label: "统计学",
+          new_image: "",
+          titles: "有趣的统计：75招学会数据分析",
+          sid: 1272,
+          category_id: "01908276e79111e1bbc800163e0123ac",
+          book_count: 1
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01pRfWAPVsh/nFggAYFZrprSpd.jpg!s",
+          label: "航空与航天",
+          new_image: "",
+          titles: "天上的街市：空间站、航天航空小百科：航空科技追踪、...",
+          sid: 1277,
+          category_id: "0572b3b4e79111e1bbc800163e0123ac",
+          book_count: 14
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01K4boMpPm6/bRJCvM6r3aEW4A.jpg!s",
+          label: "环境科学",
+          new_image: "",
+          titles: "遇险自救手册、地震安全手册：搜救、安全、灾后卫生工...",
+          sid: 1282,
+          category_id: "09989bf2e79111e1bbc800163e0123ac",
+          book_count: 9
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01IA0ZrReNb/wu1gaYSkAICasn.jpg!s",
+          label: "安全科学",
+          new_image: "",
+          titles: "绝境安全手册、农林病虫害灾害防御、火警灾害防御、地...",
+          sid: 1287,
+          category_id: "0d241a76e79111e1bbc800163e0123ac",
+          book_count: 12
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01RYavD3cQB/Y1pyeQrAkR8sWZ.jpg!s",
+          label: "实验、仪器与测量",
+          new_image: "",
+          titles: "科学奥秘丛书：新材料与新能源、食品感官检验技术项目...",
+          sid: 1292,
+          category_id: "115574d2e79111e1bbc800163e0123ac",
+          book_count: 3
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p013Bvy0eZkX/PpQInCcux4r0lY.jpg!s",
+          label: "丛书与文集",
+          new_image: "",
+          titles: "何种文明？中国崛起的再思考",
+          sid: 1297,
+          category_id: "16aa3d64e79111e1bbc800163e0123ac",
+          book_count: 1
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01lEnaOHNq6/ZDRArv8XHHXjbh.jpg!s",
+          label: "科技史",
+          new_image: "",
+          titles: "KK三部曲（失控+科技想要什么+必然）、梦溪笔谈、...",
+          sid: 1302,
+          category_id: "1b916f1ee79111e1bbc800163e0123ac",
+          book_count: 7
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01IPVJOlc64/yg7dCdlktsoUdK.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01lEnaOHNq6/ZDRArv8XHHXjbh.jpg!s",
+      label: "自然科学",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01pM6Kz1BDl/uUB0VjZ3qI2Vi8.jpg",
+      titles: "KK三部曲（失控+科技想要什么+必然）、黑洞战争、...",
+      sid: 1217,
+      category_id: "be7120e0e79011e1bbc800163e0123ac",
+      book_count: 1600
+    },
+    {
+      count: 11,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p010KbST9oNq/Tb5d7gczq4c3AX.jpg!s",
+          label: "幼儿启蒙",
+          new_image: "",
+          titles: "粗心大意的小熊（学会感恩与尊重系列）、灰狼先生（学...",
+          sid: 392,
+          category_id: "ba7152f2d57111e1b8f300163e0060da",
+          book_count: 139
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01GCWVa3HMF/DSETxA1SFCyF3U.jpg!s",
+          label: "儿童文学",
+          new_image: "",
+          titles: "混血豺王、第七条猎狗、狼王梦、哈利·波特完整系列（...",
+          sid: 397,
+          category_id: "c84761bed57111e1b8f300163e0060da",
+          book_count: 1283
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01EKHGpWN0C/kRKiuWMXwt3N5A.jpg!s",
+          label: "漫画绘本与图画书",
+          new_image: "",
+          titles: "贪金的人（多彩的民族故事 1）、白雪公主和七个小矮...",
+          sid: 402,
+          category_id: "cf16996ad57111e1b8f300163e0060da",
+          book_count: 244
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01V9ecFS6fA/kLXsPetTEVSSt4.jpg!s",
+          label: "科普百科",
+          new_image: "",
+          titles: "科普袖珍馆：趣味物理学、昆虫记（陈筱卿译）、西顿野...",
+          sid: 407,
+          category_id: "d5f3d284d57111e1b8f300163e0060da",
+          book_count: 175
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01oDhFbWPYe/ede1oX4RbelRkI.jpg!s",
+          label: "少儿英语",
+          new_image: "",
+          titles: "破译奥秘大世界丛书：破译神奇月球之谜、学习与迁移、...",
+          sid: 412,
+          category_id: "d9cd5b46d57111e1b8f300163e0060da",
+          book_count: 33
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01651vg74io/hjkKp1FBDbBxCr.jpg!s",
+          label: "国学启蒙",
+          new_image: "",
+          titles: "优秀青少年最想知道：科学未解之谜大全集、蒙学浅注、...",
+          sid: 417,
+          category_id: "dd613b56d57111e1b8f300163e0060da",
+          book_count: 63
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01iTQrpWB91/9Q2puTq7afqIAx.jpg!s",
+          label: "音乐舞蹈",
+          new_image: "",
+          titles: "学钢琴，绝不能走这些弯路！学琴者必备的35个实用小...",
+          sid: 422,
+          category_id: "e14d4c6ed57111e1b8f300163e0060da",
+          book_count: 13
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p011Is7Qn1zP/fIqgWZQxsrA8WD.jpg!s",
+          label: "绘画书法",
+          new_image: "",
+          titles: "希利尔讲给孩子的艺术史、拉斐尔原来可以这样看、梵高...",
+          sid: 427,
+          category_id: "e4c688b0d57111e1b8f300163e0060da",
+          book_count: 7
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01BUexVOs4t/5kg2sDTnT1UEt5.jpg!s",
+          label: "智力游戏",
+          new_image: "",
+          titles: "玩出你前程：哈佛学生最喜欢游戏系列（全8册）、欧美...",
+          sid: 437,
+          category_id: "eb253670d57111e1b8f300163e0060da",
+          book_count: 115
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01XL6iC7O7T/yP4RC1B2C6GuWD.jpg!s",
+          label: "励志与成长",
+          new_image: "",
+          titles: "管好自己就能飞、大名人小故事 下、给知心少年：励志...",
+          sid: 442,
+          category_id: "ef4272ccd57111e1b8f300163e0060da",
+          book_count: 101
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ovT9KmLXV/u6CudvGCkhS0HY.jpg!s",
+          label: "生活常识",
+          new_image: "",
+          titles: "一定要教给孩子的60个安全自救细节、谈话礼仪、怎么...",
+          sid: 447,
+          category_id: "f2c8f47ad57111e1b8f300163e0060da",
+          book_count: 10
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01kg5jehH12/rUAFaN1hCl1FBW.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01xeRY16OSm/fEzEqCiZL79kEV.jpg!s",
+      label: "少儿",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01kE5lVsxsr/BSNzsUtv6zLQ8U.jpg",
+      titles: "做梦公主的受气包、贪金的人（多彩的民族故事 1）、...",
+      sid: 87,
+      category_id: "d87b6fdecb4a11e1b8f300163e0060da",
+      book_count: 2842
+    },
+    {
+      count: 11,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://dl2.files.xiaomi.net/mfsv2/download/s010/p01YDnxzj0AP/hH0RqQKB7E6x9d.jpg!s",
+          label: "旅游随笔",
+          new_image: "",
+          titles: "拉萨，时光静默如谜、浮年锦记：巴黎2555天、在最...",
+          sid: 557,
+          category_id: "552df426d57211e1b8f300163e0060da",
+          book_count: 186
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01pvxgyyTKm/atiJUNgFrlbLky.jpg!s",
+          label: "国内游",
+          new_image: "",
+          titles: "“吃货”爱旅游：一个“吃货”的旅游食色攻略、极致西...",
+          sid: 562,
+          category_id: "58965798d57211e1b8f300163e0060da",
+          book_count: 58
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01xAhf3eqTz/v0e2gLYPtFx6ld.jpg!s",
+          label: "国外游",
+          new_image: "",
+          titles: "走，品日本、独行侠65天走遍申根25国、在巴黎的天...",
+          sid: 567,
+          category_id: "5be52942d57211e1b8f300163e0060da",
+          book_count: 44
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01uXBU4z9Xw/DZT2lABzsHm0SC.jpg!s",
+          label: "自助游",
+          new_image: "",
+          titles: "走遍中国（珍藏版）、背包里的彩云之南、最西藏、山东...",
+          sid: 572,
+          category_id: "611e5a32d57211e1b8f300163e0060da",
+          book_count: 133
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01i1TcFBd29/uW3PuT9Z7ichqR.jpg!s",
+          label: "户外探险",
+          new_image: "",
+          titles: "荒野求生：印第安人野外生存手册、最后的漂流、绿野旅...",
+          sid: 577,
+          category_id: "6450a8b8d57211e1b8f300163e0060da",
+          book_count: 10
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p017A815Xjh3/sJYVAFJ0C9Wzoo.jpg!s",
+          label: "旅游摄影",
+          new_image: "",
+          titles: "我喜欢风景是寂静的、大北京、印·像：中国最值得拍摄...",
+          sid: 582,
+          category_id: "68c2c7b4d57211e1b8f300163e0060da",
+          book_count: 12
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p016kEEBvIw7/wqWNwr3FWkGlFW.jpg!s",
+          label: "旅游常识",
+          new_image: "",
+          titles: "不可不知的地理常识、不可不知的旅游小贴士、环球旅游...",
+          sid: 587,
+          category_id: "6d08f15ed57211e1b8f300163e0060da",
+          book_count: 5
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ON577h9jA/tDhdfJSU9vwhIy.jpg!s",
+          label: "旅游语言",
+          new_image: "",
+          titles: "节目主持人实用口语训练教程、文章例话、旅游英语、和...",
+          sid: 592,
+          category_id: "729b5558d57211e1b8f300163e0060da",
+          book_count: 4
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01xAX2LO6lY/FzbSAqW7uymvLu.jpg!s",
+          label: "旅游理论与实务",
+          new_image: "",
+          titles: "旅行社管理流程设计与工作标准、现代饭店管理",
+          sid: 597,
+          category_id: "775b6f1ad57211e1b8f300163e0060da",
+          book_count: 2
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01xjvEdltzS/vMlW3WQzGGHomt.jpg!s",
+          label: "导游必备",
+          new_image: "",
+          titles: "颐和园导游词",
+          sid: 602,
+          category_id: "7c60fc78d57211e1b8f300163e0060da",
+          book_count: 1
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p018MXIFkXzG/YWW6kUptwO4R66.jpg!s",
+          label: "地图",
+          new_image: "",
+          titles: "古城未解之谜（奥秘世界知识文库）、要么读书，要么旅...",
+          sid: 607,
+          category_id: "7f62fad4d57211e1b8f300163e0060da",
+          book_count: 123
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01UWc5oWB0z/087ih0dGMxspDa.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01uXBU4z9Xw/DZT2lABzsHm0SC.jpg!s",
+      label: "旅游",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01NVmfYPZ6j/PfMuwo5a9kA18j.jpg",
+      titles: "走遍中国（珍藏版）、拉萨，时光静默如谜、浮年锦记：...",
+      sid: 11,
+      category_id: "67753efb79704caba9c54e8f6cb03a30",
+      book_count: 983
+    },
+    {
+      count: 7,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Tobr7LI4c/dBPXNazzogIk8c.jpg!s",
+          label: "政治理论",
+          new_image: "",
+          titles: "政府论、论人类不平等的起源（壹力文库035）、利维...",
+          sid: 1182,
+          category_id: "8514a334df6c11e1aa5900163e0123ac",
+          book_count: 83
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01hO12M07rj/oh3WxYgrdHRrBj.jpg!s",
+          label: "中国共产党",
+          new_image: "",
+          titles: "为政干事做人：向杨善洲学习什么、学习型党组织建设党...",
+          sid: 1187,
+          category_id: "88893dfedf6c11e1aa5900163e0123ac",
+          book_count: 3
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p010Lrks4FYX/xAoVjbujNzh6yt.jpg!s",
+          label: "中国政治",
+          new_image: "",
+          titles: "薛涌看中国、《中国历代政治得失》导读、衙门逻辑、毛...",
+          sid: 1192,
+          category_id: "919a8240df6c11e1aa5900163e0123ac",
+          book_count: 143
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01WJq49zxhD/wkHHOwJMt3Mfnu.jpg!s",
+          label: "世界政治",
+          new_image: "",
+          titles: "以色列，一个国家的诞生：知乎十一点半（司洋）作品（...",
+          sid: 1197,
+          category_id: "94a561d0df6c11e1aa5900163e0123ac",
+          book_count: 132
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01GIJxlK3uh/4ioDpOqVFbBQKN.jpg!s",
+          label: "军事",
+          new_image: "",
+          titles: "华杉讲透《孙子兵法》、孙子兵法（图说精解）、百科图...",
+          sid: 1202,
+          category_id: "9a209f1cdf6c11e1aa5900163e0123ac",
+          book_count: 215
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p018e91W106r/9FUx2RouOeTLvy.jpg!s",
+          label: "外交、国际关系",
+          new_image: "",
+          titles: "论中国、说不尽的外交、李光耀论中国与世界、打铁还需...",
+          sid: 1207,
+          category_id: "9cd6c1d2df6c11e1aa5900163e0123ac",
+          book_count: 28
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01DIUjwVnsw/taZgRHvQAxgHWJ.jpg!s",
+          label: "马克思主义理论",
+          new_image: "",
+          titles: "跟毛泽东学公文写作、毛泽东和他的秘书们、毛泽东在1...",
+          sid: 1212,
+          category_id: "a21346f2df6c11e1aa5900163e0123ac",
+          book_count: 14
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p0118HgCzKSy/TNPQ1UcU5UqccJ.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01GIJxlK3uh/4ioDpOqVFbBQKN.jpg!s",
+      label: "政治军事",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01MnZZPAYxm/sqNANucwAvkQSG.jpg",
+      titles: "华杉讲透《孙子兵法》、孙子兵法（图说精解）、以色列...",
+      sid: 1177,
+      category_id: "752e7daadf6c11e1aa5900163e0123ac",
+      book_count: 1146
+    },
+    {
+      count: 17,
+      description: "艺术",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01H2wz9UvFq/bqznO75O2o6qxf.jpg!s",
+          label: "艺术理论与评论",
+          new_image: "",
+          titles: "陌生的经验、范曾开讲、文艺常识速查速记手册、蝙蝠侠...",
+          sid: 792,
+          category_id: "3b33192ed57311e1b8f300163e0060da",
+          book_count: 44
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p012hXSM0FEY/5z94Bdd69DogzS.jpg!s",
+          label: "艺术史",
+          new_image: "",
+          titles: "剑桥艺术史：绘画观赏、伦勃朗（巨匠素描大系）、西方...",
+          sid: 797,
+          category_id: "412dcc34d57311e1b8f300163e0060da",
+          book_count: 30
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01XDlcwCCXn/THeI3SbOIMGJ56.jpg!s",
+          label: "世界各国艺术概况",
+          new_image: "",
+          titles: "民艺四十年、百花齐放的中国艺术、德意志悲苦剧的起源",
+          sid: 802,
+          category_id: "445fc984d57311e1b8f300163e0060da",
+          book_count: 3
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01iqFiVCEaj/zAuFyVYTIb3n2d.jpg!s",
+          label: "鉴赏收藏",
+          new_image: "",
+          titles: "瓷器鉴赏收藏手册、阳羡茗壶系·骨董十三说：中华生活...",
+          sid: 807,
+          category_id: "4aeaab48d57311e1b8f300163e0060da",
+          book_count: 29
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ufubqVAEu/3W23uEHdxYNiTF.jpg!s",
+          label: "绘画",
+          new_image: "",
+          titles: "彩绘色铅笔技法：从新手到高手（花草篇）、花卉圣经、...",
+          sid: 812,
+          category_id: "516aed3ed57311e1b8f300163e0060da",
+          book_count: 137
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01mPXO99WI2/pqO8YK90F340kP.jpg!s",
+          label: "书法",
+          new_image: "",
+          titles: "颜真卿楷书字帖、范曾开讲、书法章法形式原理、一管笔...",
+          sid: 817,
+          category_id: "549efe1ed57311e1b8f300163e0060da",
+          book_count: 17
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01dzt2I3G5n/jnkfuVYvWtdjhv.jpg!s",
+          label: "篆刻",
+          new_image: "",
+          titles: "商界集萃",
+          sid: 822,
+          category_id: "57165c00d57311e1b8f300163e0060da",
+          book_count: 1
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01pWH8Iqka5/y8pXSxwM66Jbqo.jpg!s",
+          label: "设计",
+          new_image: "",
+          titles: "简约至上、设计诗、说服力：让你的PPT会说话、产品...",
+          sid: 827,
+          category_id: "59f21068d57311e1b8f300163e0060da",
+          book_count: 80
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01dafuAqwnT/mqWb6Pswo9Rbi8.jpg!s",
+          label: "影视",
+          new_image: "",
+          titles: "色非色：经典情爱电影20品、故事：材质、结构、风格...",
+          sid: 832,
+          category_id: "5bcae9aad57311e1b8f300163e0060da",
+          book_count: 169
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01vWEslKadc/5iDzfnMIkNzzUO.jpg!s",
+          label: "动画",
+          new_image: "",
+          titles: "动画艺术论、动画大师：宫崎骏",
+          sid: 837,
+          category_id: "5f572be2d57311e1b8f300163e0060da",
+          book_count: 2
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p011oQScqjQ9/NeMq0sFh0WAuvq.jpg!s",
+          label: "戏剧",
+          new_image: "",
+          titles: "宋元戏曲史、山西戏曲名角、民间文化与“十七年”戏曲...",
+          sid: 842,
+          category_id: "632af9a6d57311e1b8f300163e0060da",
+          book_count: 46
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01oq2D1PG0P/IoWriYHjliU8DM.jpg!s",
+          label: "摄影",
+          new_image: "",
+          titles: "就为拍张好照片：懒家伙的摄影入门书、美少女摆姿与摄...",
+          sid: 847,
+          category_id: "66264e62d57311e1b8f300163e0060da",
+          book_count: 331
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p016f6RG655m/RoSiyyU3LNpZlI.jpg!s",
+          label: "雕塑",
+          new_image: "",
+          titles: "雕塑美学、雕塑：知道这些就够了",
+          sid: 852,
+          category_id: "68cc5562d57311e1b8f300163e0060da",
+          book_count: 2
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01Lv3JM2R8T/IGiThZNMaPJOqT.jpg!s",
+          label: "建筑",
+          new_image: "",
+          titles: "在建筑中发现梦想、新技能，如何自己建房子：知乎鹤运...",
+          sid: 857,
+          category_id: "6b49563cd57311e1b8f300163e0060da",
+          book_count: 64
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01h8Q4yK13g/xdIlIw3hu74YPM.jpg!s",
+          label: "音乐",
+          new_image: "",
+          titles: "经典音乐故事、想乐、光辉岁月，不说再见：香港音乐时...",
+          sid: 862,
+          category_id: "6d82b9ded57311e1b8f300163e0060da",
+          book_count: 59
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Qv87DTMuA/x2BnLxb8w2tbpK.jpg!s",
+          label: "舞蹈",
+          new_image: "",
+          titles: "舞蹈形体训练基础、形体舞蹈、民族民间舞、东方舞苑纵...",
+          sid: 867,
+          category_id: "74fc5ed6d57311e1b8f300163e0060da",
+          book_count: 5
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ndLEFQXtB/55vxlljrIlJzap.jpg!s",
+          label: "工艺美术",
+          new_image: "",
+          titles: "琥珀蜜蜡把玩艺术、陶瓷的故事、中外剪纸精品、清华美...",
+          sid: 872,
+          category_id: "76fef8e2d57311e1b8f300163e0060da",
+          book_count: 15
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01AAiNIpcZP/R2VwEynGqEk8u9.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01h8Q4yK13g/xdIlIw3hu74YPM.jpg!s",
+      label: "艺术",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01uwCyxU3FG/oop5ePWkr8afRy.jpg",
+      titles: "经典音乐故事、简约至上、就为拍张好照片：懒家伙的摄...",
+      sid: 7,
+      category_id: "f2a5ae4a0ad942889f5657cda60d69d9",
+      book_count: 1458
+    },
+    {
+      count: 19,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01DwqxLnyu3/VnS789N1s4oAJD.jpg!s",
+          label: "理论法学",
+          new_image: "",
+          titles: "法理学、法治与法治思维、法律何为、刑事和解制度的多...",
+          sid: 1072,
+          category_id: "4a0cd44adaef11e192a600163e0123ac",
+          book_count: 26
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p010zclQk7Ij/KMGpdS6QJSvaOM.jpg!s",
+          label: "法律史",
+          new_image: "",
+          titles: "新民说：法律史的视界、无中生有：中国历史中的诬告往...",
+          sid: 1077,
+          category_id: "51e38b50daef11e192a600163e0123ac",
+          book_count: 12
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p014eZ1xVg6O/40BVebUmyLEK72.jpg!s",
+          label: "国家法、宪法",
+          new_image: "",
+          titles: "公民权利与社会保障、给美国以灵魂、自由的开端：美国...",
+          sid: 1082,
+          category_id: "559cc022daef11e192a600163e0123ac",
+          book_count: 9
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01me9bR11OJ/Kw2jc5doGhiFFb.jpg!s",
+          label: "行政法",
+          new_image: "",
+          titles: "有保无险、食品安全与监督管理、经济行政法、AOPA...",
+          sid: 1087,
+          category_id: "5aa7f5c8daef11e192a600163e0123ac",
+          book_count: 32
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01157YAeIwK/K61dBfFqiasTmp.jpg!s",
+          label: "民法",
+          new_image: "",
+          titles: "按合同办事 用法律维权、债权人维权妙招、著作权法学...",
+          sid: 1092,
+          category_id: "5efe3d26daef11e192a600163e0123ac",
+          book_count: 34
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01uscXLuC6w/uKLUKNlt2iiizV.jpg!s",
+          label: "商法",
+          new_image: "",
+          titles: "公司设立与股权纠纷、商品购销的法律风险与防控、电子...",
+          sid: 1097,
+          category_id: "62670c54daef11e192a600163e0123ac",
+          book_count: 7
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01yCH7fED9f/XG2MoF0yGDUhwi.jpg!s",
+          label: "经济法",
+          new_image: "",
+          titles: "税法（第3版）、劳资纠纷节点分析与应对、环境与资源...",
+          sid: 1102,
+          category_id: "6552be86daef11e192a600163e0123ac",
+          book_count: 24
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01RoM2bM9xM/SLOUnRIKl9WR6N.jpg!s",
+          label: "诉讼法",
+          new_image: "",
+          titles: "民事证据收集、举证、审查、刑事证据收集、审查、排除...",
+          sid: 1107,
+          category_id: "68cac16cdaef11e192a600163e0123ac",
+          book_count: 14
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01MWcVorNvL/RVQzyMoomn1weR.jpg!s",
+          label: "国际法",
+          new_image: "",
+          titles: "国际经贸法律英语、国际公法、国际刑事司法中的程序与...",
+          sid: 1112,
+          category_id: "6cd358f0daef11e192a600163e0123ac",
+          book_count: 10
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01aIzkRp56t/u8VsH673E9Lvwd.jpg!s",
+          label: "司法制度",
+          new_image: "",
+          titles: "断臂上的花朵：人生与法律的奇幻炼金术、律师实战指导...",
+          sid: 1122,
+          category_id: "758e17fadaef11e192a600163e0123ac",
+          book_count: 16
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01S2pn03jmf/bAi5sJ6QqS0RNM.jpg!s",
+          label: "法律法规",
+          new_image: "",
+          titles: "海淀区加快核心区自主创新和产业发展政策体系、劳动合...",
+          sid: 1127,
+          category_id: "790fd986daef11e192a600163e0123ac",
+          book_count: 12
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01j8bBOchga/xc30rK1LSRs9sy.jpg!s",
+          label: "外国法律与港澳台法律",
+          new_image: "",
+          titles: "多元时代的“正义方舟”：罗尔斯后期政治哲学思想研究...",
+          sid: 1132,
+          category_id: "7c50f1a2daef11e192a600163e0123ac",
+          book_count: 4
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p013ytNUDQtg/KNMEQeC4qztGy2.jpg!s",
+          label: "司法案例",
+          new_image: "",
+          titles: "名律师的58个经典案例、劳动合同法：理论与案例、生...",
+          sid: 1137,
+          category_id: "843019acdaef11e192a600163e0123ac",
+          book_count: 6
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Y7AN3H0lM/izVQClKjpzENwe.jpg!s",
+          label: "司法解释",
+          new_image: "",
+          titles: "法律基础知识问答",
+          sid: 1142,
+          category_id: "88b137d6daef11e192a600163e0123ac",
+          book_count: 1
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01uzC71JHqW/ZZlA2XRUo5EGvN.jpg!s",
+          label: "法律工具书",
+          new_image: "",
+          titles: "法律适用学、刑事疑案探究、法律信息资源研究与实务、...",
+          sid: 1147,
+          category_id: "8c91cfaadaef11e192a600163e0123ac",
+          book_count: 15
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01MGLHCiY0V/nnSxDOuAWtQ5xQ.jpg!s",
+          label: "司法考试",
+          new_image: "",
+          titles: "学生心理辅导咨询案例集（心理咨询师职业资格考试辅导...",
+          sid: 1152,
+          category_id: "904aa7dedaef11e192a600163e0123ac",
+          book_count: 2
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01jfOtVqhE8/5IhFMjUWaInU6B.jpg!s",
+          label: "法律文书",
+          new_image: "",
+          titles: "法律文书学、法律文书制作",
+          sid: 1157,
+          category_id: "93949418daef11e192a600163e0123ac",
+          book_count: 2
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01nc6d5vRqE/Xr2AGCP62T5Dg1.jpg!s",
+          label: "法学文集",
+          new_image: "",
+          titles: "同性恋与法、天然监督者：“角力”司法改革、新民说：...",
+          sid: 1162,
+          category_id: "978d0e56daef11e192a600163e0123ac",
+          book_count: 4
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01WSDnBKvAP/Xi2gq8Ovg9CFzD.jpg!s",
+          label: "法律普及读物",
+          new_image: "",
+          titles: "维权常识：知乎 DoonnerDie 作品（知乎「...",
+          sid: 1167,
+          category_id: "9c1205c6daef11e192a600163e0123ac",
+          book_count: 56
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01Iub263cnH/iNZ7gjK1h216AM.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01WSDnBKvAP/Xi2gq8Ovg9CFzD.jpg!s",
+      label: "法律",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01JE4npibRd/7x2ksPmHemG5WL.jpg",
+      titles: "维权常识：知乎 DoonnerDie 作品（知乎「...",
+      sid: 1067,
+      category_id: "214a5334daef11e192a600163e0123ac",
+      book_count: 452
+    },
+    {
+      count: 12,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01XOUHwszDt/H6GAdJF8pDdSDn.jpg!s",
+          label: "小学",
+          new_image: "",
+          titles: "匹克威克外传（上）、绽放：第十六届新概念作文获奖者...",
+          sid: 1337,
+          category_id: "782dc570f28511e1821f00163e0123ac",
+          book_count: 117
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p014vmbYpGF7/ZUPJusS7TMdTnI.jpg!s",
+          label: "初中",
+          new_image: "",
+          titles: "课堂外的趣味化学（初中版）、初中3年，男孩如何管教...",
+          sid: 1342,
+          category_id: "7f9b3eaaf28511e1821f00163e0123ac",
+          book_count: 6
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01QdcnpLNy1/1eqn3EUX22ReB8.jpg!s",
+          label: "高中",
+          new_image: "",
+          titles: "果壳帮你选专业（2016版）、美术之路八大美院状元...",
+          sid: 1347,
+          category_id: "849de344f28511e1821f00163e0123ac",
+          book_count: 20
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01AsR8Q5nBj/FFeOPus4zumFak.jpg!s",
+          label: "中小学作文辅导",
+          new_image: "",
+          titles: "繁花：十年高考满分作文精选、历届新概念一等奖获奖者...",
+          sid: 1352,
+          category_id: "88f8eb8cf28511e1821f00163e0123ac",
+          book_count: 45
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01NzOjlKSiu/lUuqJDJ89mqnuX.jpg!s",
+          label: "中小学课外读物",
+          new_image: "",
+          titles: "61个故事学会高效记忆、听课也有小窍门、金银岛（插...",
+          sid: 1357,
+          category_id: "8f661adaf28511e1821f00163e0123ac",
+          book_count: 146
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01AFdN1ybOe/rI8ZpW5l41LAQp.jpg!s",
+          label: "中小学工具书",
+          new_image: "",
+          titles: "最新名言警句大全、教育就是培养习惯、中学历史年表、...",
+          sid: 1362,
+          category_id: "9503028cf28511e1821f00163e0123ac",
+          book_count: 6
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p010BHlED96p/uEbVhQ7jAfaN0F.jpg!s",
+          label: "大学",
+          new_image: "",
+          titles: "职业生涯规划与就业指导、东方顶级大学传奇、美国文学...",
+          sid: 1367,
+          category_id: "9ae95296f28511e1821f00163e0123ac",
+          book_count: 45
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Fql5TuusX/cSqYxcRPJ6egiO.jpg!s",
+          label: "研究生",
+          new_image: "",
+          titles: "原画设计与技法、西医考研白皮书（试读版）、赢在复试...",
+          sid: 1372,
+          category_id: "9dded944f28511e1821f00163e0123ac",
+          book_count: 58
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01KHkV84Yhg/bue3xm7y7nRFJb.jpg!s",
+          label: "成人教育",
+          new_image: "",
+          titles: "电子工程师自学速成（入门篇）、面试：以辩证法为武器...",
+          sid: 1377,
+          category_id: "a25dc08ef28511e1821f00163e0123ac",
+          book_count: 8
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01oJ1Cld5Hg/Sbgar1DMmVaGcK.jpg!s",
+          label: "职业培训",
+          new_image: "",
+          titles: "翻译漫谈：怎样翻译更地道、心理咨询师国家职业资格考...",
+          sid: 1382,
+          category_id: "ad1990f2f28511e1821f00163e0123ac",
+          book_count: 19
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01DPSj4cout/EYqQ0xC48Ok7E4.jpg!s",
+          label: "学习考试与留学指导",
+          new_image: "",
+          titles: "CFA注册金融分析师考试中文手册（CFA一级 第2...",
+          sid: 1387,
+          category_id: "b3b91bf8f28511e1821f00163e0123ac",
+          book_count: 58
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01fAQVh8LXj/S87ZOUBOOUenkS.jpg!s",
+          label: "教师用书",
+          new_image: "",
+          titles: "学生问题个案诊疗69例、让每一所学校都美丽、薛瑞萍...",
+          sid: 1392,
+          category_id: "bbb25248f28511e1821f00163e0123ac",
+          book_count: 24
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01Lmg5pEjLg/AQarkb7hgHBFe6.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01QBFFFbJov/lo0hMX8YxabJKf.jpg!s",
+      label: "教育",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01vfbeYwRhz/Z1QFCp1JoEYtaf.jpg",
+      titles: "成就孩子一生的50种心态、好女孩家训：培养完美的小...",
+      sid: 1332,
+      category_id: "57489ff6f28511e1821f00163e0123ac",
+      book_count: 2204
+    },
+    {
+      count: 15,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01LiihsuqDc/5024JqtLEWZOKq.jpg!s",
+          label: "特色、品牌英语",
+          new_image: "",
+          titles: "频度英语高考核心速记1567语法研读版、神间词话：...",
+          sid: 21,
+          category_id: "8a731e94c64111e1b8f300163e0060da",
+          book_count: 4
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01R0nmmOpBT/gYmJUqau0DXqxE.jpg!s",
+          label: "英语技能学习",
+          new_image: "",
+          titles: "单词的逻辑、笨苹果的英语学习法、秒杀英语单词、英语...",
+          sid: 952,
+          category_id: "d5b329bcd57311e1b8f300163e0060da",
+          book_count: 95
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p015gfpxdqNH/nnpBYC2uhYOyOu.jpg!s",
+          label: "职业、行业英语",
+          new_image: "",
+          titles: "从ABC到脱口秀：英语发音、单词、口语速成全攻略、...",
+          sid: 957,
+          category_id: "da0b332ed57311e1b8f300163e0060da",
+          book_count: 27
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01ZorusYBGK/8Lh7N6zrI9GoJs.jpg!s",
+          label: "生活实用英语",
+          new_image: "",
+          titles: "老外每天都在用的286个英语关键句型、带本英语书游...",
+          sid: 962,
+          category_id: "e04f46dad57311e1b8f300163e0060da",
+          book_count: 28
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01FOqgHVHiL/WzUsyNrHPYizU2.jpg!s",
+          label: "英语读物",
+          new_image: "",
+          titles: "不畏将来，不念过往（中英双语版）、廊桥遗梦（纪念版...",
+          sid: 967,
+          category_id: "e50ae4f4d57311e1b8f300163e0060da",
+          book_count: 354
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01ERX4VD2MU/M8Rnz4HgyZEJ8Q.jpg!s",
+          label: "英语考试",
+          new_image: "",
+          titles: "36小时速记四级1800词、记单词不如记短语、9分...",
+          sid: 972,
+          category_id: "e8f33508d57311e1b8f300163e0060da",
+          book_count: 54
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01vMtezMBCM/Zl2xKpvZfJoXmK.jpg!s",
+          label: "儿童英语",
+          new_image: "",
+          titles: "培根随笔（中文导读英文版）、小熊维尼历险记（插图·...",
+          sid: 977,
+          category_id: "ec9f53dad57311e1b8f300163e0060da",
+          book_count: 5
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01pmsfJG0hK/u0nPzlUwNkvWJ8.jpg!s",
+          label: "小学英语",
+          new_image: "",
+          titles: "PEP小学英语单词分类快速记忆手册",
+          sid: 982,
+          category_id: "f087bd48d57311e1b8f300163e0060da",
+          book_count: 1
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01QOIWc58ZZ/d7qxbjqkXlWGvI.jpg!s",
+          label: "中学英语",
+          new_image: "",
+          titles: "高考英语高分指南写作技巧、模板与实践、英语随身读(...",
+          sid: 987,
+          category_id: "f43a4258d57311e1b8f300163e0060da",
+          book_count: 4
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01DfFjI1JrX/SKuVZ6GoHWDIFq.jpg!s",
+          label: "大学英语",
+          new_image: "",
+          titles: "4级高分语境速记版、汉英互译实用基础教程(上下)、...",
+          sid: 992,
+          category_id: "f82040ded57311e1b8f300163e0060da",
+          book_count: 5
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01Cwy9d0EPk/dc8kgKOk1EOtLk.jpg!s",
+          label: "日语",
+          new_image: "",
+          titles: "从あいうえお到脱口秀：日语发音、单词、口语速成全攻...",
+          sid: 997,
+          category_id: "fa77276cd57311e1b8f300163e0060da",
+          book_count: 7
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01vdhwEaAC7/QBQtd5l6RudPU0.jpg!s",
+          label: "意大利语",
+          new_image: "",
+          titles: "意大利黑手党家族传",
+          sid: 1027,
+          category_id: "108533b4d57411e1b8f300163e0060da",
+          book_count: 1
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p013g31frY8C/Tz9I5z7RXmPb2l.jpg!s",
+          label: "其他小语种",
+          new_image: "",
+          titles: "马来语高级教程（第1册）、马来语教程（第1册）、S...",
+          sid: 1047,
+          category_id: "20247942d57411e1b8f300163e0060da",
+          book_count: 20
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01qNY1NPi2T/OSwBGzKDwg35gm.jpg!s",
+          label: "外语研究与教学",
+          new_image: "",
+          titles: "6个月学会任何一种外语、英语教辅期刊编校质量解读与...",
+          sid: 1052,
+          category_id: "22de818cd57411e1b8f300163e0060da",
+          book_count: 6
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01hnVYA4Z7e/Eeuckov0VUi9R3.jpg!s",
+          label: "外国人学汉语",
+          new_image: "",
+          titles: "25天攻克HSK5级写作、新加坡华文及文学教学、中...",
+          sid: 1057,
+          category_id: "289d1840d57411e1b8f300163e0060da",
+          book_count: 6
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01apDgGfi6r/bqxMH0TOEHTzM0.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01R0nmmOpBT/gYmJUqau0DXqxE.jpg!s",
+      label: "外语",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01jqeKrIKSl/e76pWjIh5zes5O.jpg",
+      titles: "单词的逻辑、笨苹果的英语学习法、老外每天都在用的2...",
+      sid: 16,
+      category_id: "92b9b964b77d11e1b8ef00163e0060da",
+      book_count: 1229
+    },
+    {
+      count: 2,
+      description: "",
+      items: [
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01XJ3nGlWqz/nHOuCdlmBUVteP.jpg!s",
+          label: "Arts & Photography（艺术与摄影）",
+          new_image: "",
+          titles: "Illuminated Manuscripts 泥...",
+          sid: 1484,
+          category_id: "2ad86b3073d511e4ae5000259099235c",
+          book_count: 177
+        },
+        {
+          description: "",
+          image: "",
+          cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01if8W9Gt8h/HdgRZ2VgN7f1he.jpg!s",
+          label: "Children's Books（童书）",
+          new_image: "",
+          titles: "非洲的神话和传说 African Myths an...",
+          sid: 1487,
+          category_id: "6593c22e73d511e4ae5000259099235c",
+          book_count: 1
+        }
+      ],
+      image: "http://image.read.duokan.com/mfsv2/download/s010/p01XjTF4mlW4/0WLor5EbOI9RPV.png",
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01XJ3nGlWqz/nHOuCdlmBUVteP.jpg!s",
+      label: "进口原版",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01UzuKxXc44/SnvQmba9AaA4wU.jpg",
+      titles: "Illuminated Manuscripts 泥...",
+      sid: 1483,
+      category_id: "bf1b3a04706311e4b0d100259099235c",
+      book_count: 5758
+    }
+  ],
+  result: 0,
+  female: [
+    {
+      count: 6,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01BR3ZwCFVT/TEN8LaM4mHcGzE.jpg",
+      image: "",
+      label: "玄幻言情",
+      fiction_count: 3003,
+      category_id: 15000000,
+      children: [
+        {
+          description: "在东方化女性主角的设定下，综合描写基于法术、修炼、灵宠，或异世界环境的幻想作品",
+          new_image: "",
+          image: "",
+          label: "东方玄幻",
+          fiction_count: 1208,
+          category_id: 15000100,
+          channel: 2
+        },
+        {
+          description: "在与现实完全不同的一个包含西方中古世纪背景的异世界里所展开的偏女性化的作品",
+          new_image: "",
+          image: "",
+          label: "异世大陆",
+          fiction_count: 366,
+          category_id: 15000200,
+          channel: 2
+        },
+        {
+          description: "根据各种神话故事演绎而出的带有西方、东方特色的上古传奇爱情故事",
+          new_image: "",
+          image: "",
+          label: "远古神话",
+          fiction_count: 18,
+          category_id: 15000300,
+          channel: 2
+        },
+        {
+          description: "以跨越生物种族的爱情为主要内容的作品",
+          new_image: "",
+          image: "",
+          label: "异族恋情",
+          fiction_count: 246,
+          category_id: 15000400,
+          channel: 2
+        },
+        {
+          description: "带有魔法、魔宠等元素的幻想言情作品",
+          new_image: "",
+          image: "",
+          label: "魔法幻情",
+          fiction_count: 202,
+          category_id: 15000500,
+          channel: 2
+        },
+        {
+          description: "以西方奇幻体系为参照，带有较多超自然元素的以幻想世界为主要内容的作品",
+          new_image: "",
+          image: "",
+          label: "西方奇幻",
+          fiction_count: 963,
+          category_id: 15000600,
+          channel: 2
+        }
+      ],
+      channel: 2
+    },
+    {
+      count: 4,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01ZqwpZ8oKg/feoI8ioQNIkrZt.jpg",
+      image: "",
+      label: "仙侠奇缘",
+      fiction_count: 1548,
+      category_id: 16000000,
+      children: [
+        {
+          description: "讲述仗剑天下、快意恩仇的武侠世界里的爱情故事",
+          new_image: "",
+          image: "",
+          label: "武侠情缘",
+          fiction_count: 51,
+          category_id: 16000100,
+          channel: 2
+        },
+        {
+          description: "以中国风情为背景，描写追求仙道、仙界争斗环境下的言情作品",
+          new_image: "",
+          image: "",
+          label: "古典仙侠",
+          fiction_count: 1346,
+          category_id: 16000200,
+          channel: 2
+        },
+        {
+          description: "在现代都市里，修习上古修仙法术的女主作品",
+          new_image: "",
+          image: "",
+          label: "现代修真",
+          fiction_count: 149,
+          category_id: 16000300,
+          channel: 2
+        },
+        {
+          description: "以中国上古神话为背景，重绘盘古洪荒，三教封神，西游取经等内容作品",
+          new_image: "",
+          image: "",
+          label: "洪荒传说",
+          fiction_count: 2,
+          category_id: 16000400,
+          channel: 2
+        }
+      ],
+      channel: 2
+    },
+    {
+      count: 6,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01iid4nqHCp/M13cI2oxLZHdgR.jpg",
+      image: "",
+      label: "古代言情",
+      fiction_count: 30504,
+      category_id: 17000000,
+      children: [
+        {
+          description: "以女尊男卑为背景设定的作品",
+          new_image: "",
+          image: "",
+          label: "女尊王朝",
+          fiction_count: 2306,
+          category_id: 17000100,
+          channel: 2
+        },
+        {
+          description: "以架空古代为世界背景设定的作品，不含宫斗宅斗为主线的作品",
+          new_image: "",
+          image: "",
+          label: "古典架空",
+          fiction_count: 12994,
+          category_id: 17000200,
+          channel: 2
+        },
+        {
+          description: "以真实历史为背景，以女性为主角展开的一系列有关感情和生活的作品",
+          new_image: "",
+          image: "",
+          label: "古代情缘",
+          fiction_count: 1658,
+          category_id: 17000300,
+          channel: 2
+        },
+        {
+          description: "以穿越时空为背景设定的作品",
+          new_image: "",
+          image: "",
+          label: "穿越奇情",
+          fiction_count: 11147,
+          category_id: 17000400,
+          channel: 2
+        },
+        {
+          description: "以中国古代宫廷或者豪门世家为小说背景，以后妃或者妻妾之间争斗为主要内容的作品",
+          new_image: "",
+          image: "",
+          label: "宫闱宅斗",
+          fiction_count: 1427,
+          category_id: 17000500,
+          channel: 2
+        },
+        {
+          description: "以古代农户或者古代小家庭的日常生活以及发家致富为主要内容的作品",
+          new_image: "",
+          image: "",
+          label: "经商种田",
+          fiction_count: 1045,
+          category_id: 17000600,
+          channel: 2
+        }
+      ],
+      channel: 2
+    },
+    {
+      count: 9,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01uAmaXDpCp/I8X44Zrh3SzdGA.jpg",
+      image: "",
+      label: "现代言情",
+      fiction_count: 28195,
+      category_id: 18000000,
+      children: [
+        {
+          description: "现代大都市中发生的感情、生活、事业碰撞的作品",
+          new_image: "",
+          image: "",
+          label: "都市生活",
+          fiction_count: 19686,
+          category_id: 18000100,
+          channel: 2
+        },
+        {
+          description: "近代、当代现实背景下的情感婚姻、家庭伦理、婆媳关系的作品",
+          new_image: "",
+          image: "",
+          label: "婚恋情缘",
+          fiction_count: 1751,
+          category_id: 18000200,
+          channel: 2
+        },
+        {
+          description: "真实或虚拟的娱乐圈历史变迁、娱乐事业沉浮、明星镜头前后故事的作品",
+          new_image: "",
+          image: "",
+          label: "娱乐明星",
+          fiction_count: 234,
+          category_id: 18000300,
+          channel: 2
+        },
+        {
+          description: "以官场为主题或背景，描绘女性主角为官为民的作品",
+          new_image: "",
+          image: "",
+          label: "官场沉浮",
+          fiction_count: 28,
+          category_id: 18000400,
+          channel: 2
+        },
+        {
+          description: "当代商场、创业、股市、金融等领域生活、冲突或在职场中男女的奋斗、生活、感慨人生的作品",
+          new_image: "",
+          image: "",
+          label: "商战职场",
+          fiction_count: 118,
+          category_id: 18000500,
+          channel: 2
+        },
+        {
+          description: "女性主角在现实社会中意外获得超能力，从而改变人生的作品",
+          new_image: "",
+          image: "",
+          label: "异术超能",
+          fiction_count: 298,
+          category_id: 18000600,
+          channel: 2
+        },
+        {
+          description: "在现代背景下，以主角之一身份为豪门高干子弟或高管，进而展开的作品",
+          new_image: "",
+          image: "",
+          label: "豪门世家",
+          fiction_count: 6069,
+          category_id: 18000700,
+          channel: 2
+        },
+        {
+          description: "以江湖兄弟情义、社会仇杀、杀手恩怨等为背景的女主作品",
+          new_image: "",
+          image: "",
+          label: "极道江湖",
+          fiction_count: 32,
+          category_id: 18000800,
+          channel: 2
+        },
+        {
+          description: "以民国历史时期为背景的都市爱情故事",
+          new_image: "",
+          image: "",
+          label: "民国情缘",
+          fiction_count: 16,
+          category_id: 18000900,
+          channel: 2
+        }
+      ],
+      channel: 2
+    },
+    {
+      count: 4,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01C6CyTDfx1/ClruUbGn2Y1EJf.jpg",
+      image: "",
+      label: "浪漫青春",
+      fiction_count: 3135,
+      category_id: 19000000,
+      children: [
+        {
+          description: "以叛逆、成长为内容主题的作品",
+          new_image: "",
+          image: "",
+          label: "叛逆成长",
+          fiction_count: 1894,
+          category_id: 19000100,
+          channel: 2
+        },
+        {
+          description: "以青春爱情为内容主题的作品",
+          new_image: "",
+          image: "",
+          label: "青春纯爱",
+          fiction_count: 418,
+          category_id: 19000200,
+          channel: 2
+        },
+        {
+          description: "以青春期男女的成长之痛和他们的哀伤寂寞为主题的作品",
+          new_image: "",
+          image: "",
+          label: "青春疼痛",
+          fiction_count: 96,
+          category_id: 19000300,
+          channel: 2
+        },
+        {
+          description: "以发生在校园的故事背景为主线的作品，现实或轻幻想皆可",
+          new_image: "",
+          image: "",
+          label: "青春校园",
+          fiction_count: 801,
+          category_id: 19000400,
+          channel: 2
+        }
+      ],
+      channel: 2
+    },
+    {
+      count: 7,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01CZK0sxP9o/cqhUW20bu1nGTL.jpg",
+      image: "",
+      label: "科幻空间",
+      fiction_count: 894,
+      category_id: 21000000,
+      children: [
+        {
+          description: "星际时代发生在不同星球之间、或星际旅途中的爱情故事。",
+          new_image: "",
+          image: "",
+          label: "星际恋歌",
+          fiction_count: 123,
+          category_id: 21000100,
+          channel: 2
+        },
+        {
+          description: "在不同时空与位面间穿梭、旅行的女性言情作品",
+          new_image: "",
+          image: "",
+          label: "时空穿梭",
+          fiction_count: 183,
+          category_id: 21000200,
+          channel: 2
+        },
+        {
+          description: "以未来世界为背景的女性言情作品",
+          new_image: "",
+          image: "",
+          label: "未来世界",
+          fiction_count: 402,
+          category_id: 21000300,
+          channel: 2
+        },
+        {
+          description: "古代武学与机甲世界为背景的女性言情作品",
+          new_image: "",
+          image: "",
+          label: "古武机甲",
+          fiction_count: 5,
+          category_id: 21000400,
+          channel: 2
+        },
+        {
+          description: "未来科技，外星科技，以现实科技为题材的女性言情作品",
+          new_image: "",
+          image: "",
+          label: "超级科技",
+          fiction_count: 6,
+          category_id: 21000500,
+          channel: 2
+        },
+        {
+          description: "描述女主生命体因为某种人为或非人为因素而发生变异，并以此展开剧情的作品",
+          new_image: "",
+          image: "",
+          label: "进化变异",
+          fiction_count: 13,
+          category_id: 21000600,
+          channel: 2
+        },
+        {
+          description: "因为战争或科技失控，或某种意外灾难，人类文明被毁灭或即将毁灭，以此为背景的爱情作品",
+          new_image: "",
+          image: "",
+          label: "末世危机",
+          fiction_count: 162,
+          category_id: 21000700,
+          channel: 2
+        }
+      ],
+      channel: 2
+    },
+    {
+      count: 5,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01p0bkN95rd/28qprsFyXXFRiB.jpg",
+      image: "",
+      label: "悬疑灵异",
+      fiction_count: 551,
+      category_id: 20000000,
+      children: [
+        {
+          description: "以案件发生和推理侦破过程为主要描写对象的作品",
+          new_image: "",
+          image: "",
+          label: "推理侦探",
+          fiction_count: 57,
+          category_id: 20000100,
+          channel: 2
+        },
+        {
+          description: "以恐怖为主、意图带给读者恐怖感（达到使其恐惧的目的）的作品",
+          new_image: "",
+          image: "",
+          label: "恐怖惊悚",
+          fiction_count: 77,
+          category_id: 20000200,
+          channel: 2
+        },
+        {
+          description: "以主角经历各种不寻常的冒险事件为中心，含有悬念贯穿始终并最终揭开的作品",
+          new_image: "",
+          image: "",
+          label: "悬疑探险",
+          fiction_count: 48,
+          category_id: 20000300,
+          channel: 2
+        },
+        {
+          description: "以神鬼等超自然事物为题材，带有较强的奇幻色彩和民间特性",
+          new_image: "",
+          image: "",
+          label: "灵异鬼怪",
+          fiction_count: 261,
+          category_id: 20000400,
+          channel: 2
+        },
+        {
+          description: "以解释和探秘风水、相面、命理知识、民俗文化为主的故事。",
+          new_image: "",
+          image: "",
+          label: "神秘文化",
+          fiction_count: 109,
+          category_id: 20000500,
+          channel: 2
+        }
+      ],
+      channel: 2
+    },
+    {
+      count: 4,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01Jg4EG0rfN/rFHJiccBRvaB2z.jpg",
+      image: "",
+      label: "游戏竞技",
+      fiction_count: 643,
+      category_id: 22000000,
+      children: [
+        {
+          description: "在虚拟网游世界或现实网游生活中发生的情感故事",
+          new_image: "",
+          image: "",
+          label: "网游情缘",
+          fiction_count: 429,
+          category_id: 22000200,
+          channel: 2
+        },
+        {
+          description: "讲述女性视角下以体育运动为背景的小说",
+          new_image: "",
+          image: "",
+          label: "体育竞技",
+          fiction_count: 200,
+          category_id: 22000400,
+          channel: 2
+        },
+        {
+          description: "将游戏中的装备或技能带入现实世界或其它游戏中，或者女主进入游戏世界中的作品",
+          new_image: "",
+          image: "",
+          label: "游戏异界",
+          fiction_count: 13,
+          category_id: 22000300,
+          channel: 2
+        },
+        {
+          description: "描绘女性职业玩家团队或个人，征战电子竞技比赛的作品",
+          new_image: "",
+          image: "",
+          label: "电子竞技",
+          fiction_count: 1,
+          category_id: 22000100,
+          channel: 2
+        }
+      ],
+      channel: 2
+    },
+    {
+      count: 5,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01TQMOOVmQC/M4ZhM8eyOydrGY.jpg",
+      image: "",
+      label: "同人小说",
+      fiction_count: 394,
+      category_id: 23000000,
+      children: [
+        {
+          description: "以武侠小说的背景、剧情或人物为基础，依托原著进行再创作的作品",
+          new_image: "",
+          image: "",
+          label: "武侠同人",
+          fiction_count: 162,
+          category_id: 23000100,
+          channel: 2
+        },
+        {
+          description: "以影视作品的背景、剧情或人物为基础，依托原著进行再创作的作品",
+          new_image: "",
+          image: "",
+          label: "影视同人",
+          fiction_count: 4,
+          category_id: 23000200,
+          channel: 2
+        },
+        {
+          description: "以动漫作品的背景、剧情或人物为基础，依托原著进行再创作的作品",
+          new_image: "",
+          image: "",
+          label: "动漫同人",
+          fiction_count: 17,
+          category_id: 23000300,
+          channel: 2
+        },
+        {
+          description: "以游戏作品的背景、剧情或人物为基础，依托原著进行再创作的作品",
+          new_image: "",
+          image: "",
+          label: "游戏同人",
+          fiction_count: 1,
+          category_id: 23000400,
+          channel: 2
+        },
+        {
+          description: "以他人小说的背景、剧情或人物为基础，依托原著进行再创作的作品",
+          new_image: "",
+          image: "",
+          label: "小说同人",
+          fiction_count: 210,
+          category_id: 23000500,
+          channel: 2
+        }
+      ],
+      channel: 2
+    },
+    {
+      count: 2,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01dRzcMHvm5/8mrRf4XGz0yvZ9.jpg",
+      image: "",
+      label: "耽美小说",
+      fiction_count: 34,
+      category_id: 24000000,
+      children: [
+        {
+          description: "以近现代（民国及民国以后时期）为背景的男性之间的情爱小说",
+          new_image: "",
+          image: "",
+          label: "现代耽美",
+          fiction_count: 1,
+          category_id: 24000200,
+          channel: 2
+        },
+        {
+          description: "纯女生之间的情爱故事的小说",
+          new_image: "",
+          image: "",
+          label: "女生百合",
+          fiction_count: 2,
+          category_id: 24000300,
+          channel: 2
+        }
+      ],
+      channel: 2
+    }
+  ],
+  male: [
+    {
+      count: 4,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01PjzDGfBYE/XnRaYkmdbKPAsy.jpg",
+      image: "",
+      label: "玄幻",
+      fiction_count: 20075,
+      category_id: 1000000,
+      children: [
+        {
+          description: "在东方化主角的设定下，综合描写基于法术、修炼，或异世界环境的幻想作品",
+          new_image: "",
+          image: "",
+          label: "东方玄幻",
+          fiction_count: 17528,
+          category_id: 1000100,
+          channel: 1
+        },
+        {
+          description: "在与现实完全不同的一个包含西方中古世纪背景的异世界里所展开的作品",
+          new_image: "",
+          image: "",
+          label: "异界大陆",
+          fiction_count: 2269,
+          category_id: 1000200,
+          channel: 1
+        },
+        {
+          description: "在与现实完全不同的一个包含西方中古世纪背景的异世界以争霸建立王朝为主线，会有一定的战争成份的作品",
+          new_image: "",
+          image: "",
+          label: "异界争霸",
+          fiction_count: 191,
+          category_id: 1000300,
+          channel: 1
+        },
+        {
+          description: "根据各种神话故事演绎而出的带有西方、东方特色的上古传奇故事",
+          new_image: "",
+          image: "",
+          label: "远古神话",
+          fiction_count: 87,
+          category_id: 1000400,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 4,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01jAurOHqeT/VupKBjfcty4ZtT.jpg",
+      image: "",
+      label: "奇幻",
+      fiction_count: 2239,
+      category_id: 2000000,
+      children: [
+        {
+          description: "以西方奇幻体系为参照，带有浓重剑与魔法系列风格的幻想作品",
+          new_image: "",
+          image: "",
+          label: "西方奇幻",
+          fiction_count: 1742,
+          category_id: 2000100,
+          channel: 1
+        },
+        {
+          description: "以西方世袭领主贵族体系为背景，讲述领主贵族奋斗历程的作品",
+          new_image: "",
+          image: "",
+          label: "领主贵族",
+          fiction_count: 89,
+          category_id: 2000200,
+          channel: 1
+        },
+        {
+          description: "西方背景下，以死灵、亡灵法师或其他非人类只会生命为主角的作品",
+          new_image: "",
+          image: "",
+          label: "亡灵异族",
+          fiction_count: 108,
+          category_id: 2000300,
+          channel: 1
+        },
+        {
+          description: "以校园、学院为背景的魔法奇幻作品",
+          new_image: "",
+          image: "",
+          label: "魔法校园",
+          fiction_count: 300,
+          category_id: 2000400,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 3,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01A0Td2ntOX/nZyJmNjLvjHMEk.jpg",
+      image: "",
+      label: "武侠",
+      fiction_count: 2928,
+      category_id: 3000000,
+      children: [
+        {
+          description: "讲述仗剑天下、行侠仗义等传统武侠世界的作品",
+          new_image: "",
+          image: "",
+          label: "传统武侠",
+          fiction_count: 2213,
+          category_id: 3000100,
+          channel: 1
+        },
+        {
+          description: "把武侠、历史、言情三者结合起来，将传统公案与现代推理揉为一体的作品",
+          new_image: "",
+          image: "",
+          label: "新派武侠",
+          fiction_count: 162,
+          category_id: 3000200,
+          channel: 1
+        },
+        {
+          description: "在现代都市背景下获得国术传承的武者修行过程的作品",
+          new_image: "",
+          image: "",
+          label: "国术武技",
+          fiction_count: 553,
+          category_id: 3000300,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 6,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01rJKmsp1Yg/hdccBJJJhl5RWO.jpg",
+      image: "",
+      label: "都市",
+      fiction_count: 49801,
+      category_id: 5000000,
+      children: [
+        {
+          description: "现代大都市中发生的感情、生活、事业碰撞的作品",
+          new_image: "",
+          image: "",
+          label: "都市生活",
+          fiction_count: 2328,
+          category_id: 5000100,
+          channel: 1
+        },
+        {
+          description: "近代、当代现实背景下的情感婚姻、家庭伦理、婆媳关系的作品",
+          new_image: "",
+          image: "",
+          label: "爱情婚姻",
+          fiction_count: 43942,
+          category_id: 5000200,
+          channel: 1
+        },
+        {
+          description: "这类作品的主角拥有类似美国超级英雄一样的特色超能力。",
+          new_image: "",
+          image: "",
+          label: "异术超能",
+          fiction_count: 3023,
+          category_id: 5000300,
+          channel: 1
+        },
+        {
+          description: "以江湖兄弟情义、社会仇杀、杀手恩怨等为背景的作品",
+          new_image: "",
+          image: "",
+          label: "恩怨情仇",
+          fiction_count: 238,
+          category_id: 5000400,
+          channel: 1
+        },
+        {
+          description: "这类作品的主角只是普通人，故事剧情都贴近现实生活，类似现代都市电视剧。",
+          new_image: "",
+          image: "",
+          label: "现实百态",
+          fiction_count: 251,
+          category_id: 5000500,
+          channel: 1
+        },
+        {
+          description: "这类作品的故事剧情都发生在校园，主角一般都是学生。",
+          new_image: "",
+          image: "",
+          label: "青春校园",
+          fiction_count: 247,
+          category_id: 5000600,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 4,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01bv2RRnNWI/78E499b1m8uhYP.jpg",
+      image: "",
+      label: "仙侠",
+      fiction_count: 6641,
+      category_id: 4000000,
+      children: [
+        {
+          description: "以中国风情为背景，描写追求仙道、仙界争斗内容的作品",
+          new_image: "",
+          image: "",
+          label: "古典仙侠",
+          fiction_count: 5218,
+          category_id: 4000100,
+          channel: 1
+        },
+        {
+          description: "运用修炼之法，在宇宙中、不同星球中，力图突破天人之境，飞升虚空的作品",
+          new_image: "",
+          image: "",
+          label: "幻想修仙",
+          fiction_count: 724,
+          category_id: 4000200,
+          channel: 1
+        },
+        {
+          description: "在现在都市里，承袭上古修仙之术，并不断突破的作品",
+          new_image: "",
+          image: "",
+          label: "现代修仙",
+          fiction_count: 492,
+          category_id: 4000300,
+          channel: 1
+        },
+        {
+          description: "以中国上古神话为背景，重绘盘古洪荒，三教封神，西游取经等内容作品",
+          new_image: "",
+          image: "",
+          label: "洪荒封神",
+          fiction_count: 207,
+          category_id: 4000400,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 9,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01Y8lYwVZ9W/WLNfnPS2Phc1G8.jpg",
+      image: "",
+      label: "历史",
+      fiction_count: 12702,
+      category_id: 6000000,
+      children: [
+        {
+          description: "主角在虚拟世界的朝代历史沉浮，改变自己和他人的命运的作品",
+          new_image: "",
+          image: "",
+          label: "架空历史",
+          fiction_count: 3354,
+          category_id: 6000100,
+          channel: 1
+        },
+        {
+          description: "以史前原始社会、古代春秋、战国为为背景的虚构类作品。",
+          new_image: "",
+          image: "",
+          label: "上古先秦",
+          fiction_count: 7973,
+          category_id: 6000200,
+          channel: 1
+        },
+        {
+          description: "以古代秦朝、汉朝、三国为背景的虚构类作品。",
+          new_image: "",
+          image: "",
+          label: "秦汉三国",
+          fiction_count: 371,
+          category_id: 6000300,
+          channel: 1
+        },
+        {
+          description: "以古代晋朝、隋朝、唐朝为背景的虚构类作品。",
+          new_image: "",
+          image: "",
+          label: "两晋隋唐",
+          fiction_count: 240,
+          category_id: 6000400,
+          channel: 1
+        },
+        {
+          description: "以古代五代十国为背景的虚构类作品。",
+          new_image: "",
+          image: "",
+          label: "五代十国",
+          fiction_count: 17,
+          category_id: 6000500,
+          channel: 1
+        },
+        {
+          description: "以古代宋朝、元朝、明朝为背景的虚构类作品。",
+          new_image: "",
+          image: "",
+          label: "两宋元明",
+          fiction_count: 450,
+          category_id: 6000600,
+          channel: 1
+        },
+        {
+          description: "以古代清朝、近代民国为背景的虚构类作品。",
+          new_image: "",
+          image: "",
+          label: "清史民国",
+          fiction_count: 182,
+          category_id: 6000700,
+          channel: 1
+        },
+        {
+          description: "以外国历史为背景的虚构作品",
+          new_image: "",
+          image: "",
+          label: "外国历史",
+          fiction_count: 64,
+          category_id: 6000800,
+          channel: 1
+        },
+        {
+          description: "以史实方式，纪述朝代历史、历史人物的传纪类作品。",
+          new_image: "",
+          image: "",
+          label: "历史传记",
+          fiction_count: 51,
+          category_id: 6000900,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 5,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p010zw5taLnG/oDuHVNfbpmHl5g.jpg",
+      image: "",
+      label: "军事",
+      fiction_count: 1286,
+      category_id: 7000000,
+      children: [
+        {
+          description: "以虚拟时空为主，模拟现代、当代背景发生军事战争的作品",
+          new_image: "",
+          image: "",
+          label: "战争幻想",
+          fiction_count: 1036,
+          category_id: 7000100,
+          channel: 1
+        },
+        {
+          description: "围绕近代、当代的间谍和特工两个特殊职业展开的作品",
+          new_image: "",
+          image: "",
+          label: "谍战特工",
+          fiction_count: 56,
+          category_id: 7000200,
+          channel: 1
+        },
+        {
+          description: "描绘现代或当代各军种军人生活、训练的作品",
+          new_image: "",
+          image: "",
+          label: "军旅生涯",
+          fiction_count: 45,
+          category_id: 7000300,
+          channel: 1
+        },
+        {
+          description: "以描写抗战为主线的作品",
+          new_image: "",
+          image: "",
+          label: "抗战烽火",
+          fiction_count: 74,
+          category_id: 7000400,
+          channel: 1
+        },
+        {
+          description: "这类作品都是围绕着军事战争故事展开，一般为现代战争。",
+          new_image: "",
+          image: "",
+          label: "军事战争",
+          fiction_count: 75,
+          category_id: 7000500,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 4,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01P2uvWsm1M/MqCuJKxKbV0TAT.jpg",
+      image: "",
+      label: "灵异",
+      fiction_count: 5095,
+      category_id: 8000000,
+      children: [
+        {
+          description: "以案件发生和推理侦破过程为主要描写对象的作品",
+          new_image: "",
+          image: "",
+          label: "推理侦探",
+          fiction_count: 1598,
+          category_id: 8000100,
+          channel: 1
+        },
+        {
+          description: "以恐怖为主、意图带给读者恐怖感（达到使其恐惧的目的）的作品",
+          new_image: "",
+          image: "",
+          label: "恐怖惊悚",
+          fiction_count: 581,
+          category_id: 8000200,
+          channel: 1
+        },
+        {
+          description: "以主角经历各种不寻常的冒险事件为中心，含有悬念贯穿始终并最终揭开的作品",
+          new_image: "",
+          image: "",
+          label: "悬疑探险",
+          fiction_count: 622,
+          category_id: 8000300,
+          channel: 1
+        },
+        {
+          description: "以神鬼等超自然事物为题材，带有较强的奇幻色彩和民间特性",
+          new_image: "",
+          image: "",
+          label: "灵异奇谈",
+          fiction_count: 2294,
+          category_id: 8000400,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 7,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p0148G9JrkuQ/aDH9eCf2L69KM2.jpg",
+      image: "",
+      label: "科幻",
+      fiction_count: 3794,
+      category_id: 9000000,
+      children: [
+        {
+          description: "在星际时代，围绕战争演绎的作品",
+          new_image: "",
+          image: "",
+          label: "星际战争",
+          fiction_count: 168,
+          category_id: 9000100,
+          channel: 1
+        },
+        {
+          description: "在不同时空与位面间穿梭、旅行的作品",
+          new_image: "",
+          image: "",
+          label: "时空穿梭",
+          fiction_count: 726,
+          category_id: 9000200,
+          channel: 1
+        },
+        {
+          description: "古代武学与机甲世界为背景的作品",
+          new_image: "",
+          image: "",
+          label: "古武机甲",
+          fiction_count: 98,
+          category_id: 9000400,
+          channel: 1
+        },
+        {
+          description: "以未来世界为背景的作品",
+          new_image: "",
+          image: "",
+          label: "未来世界",
+          fiction_count: 1913,
+          category_id: 9000300,
+          channel: 1
+        },
+        {
+          description: "未来科技，外星科技，以现实科技为题材的作品",
+          new_image: "",
+          image: "",
+          label: "超级科技",
+          fiction_count: 159,
+          category_id: 9000500,
+          channel: 1
+        },
+        {
+          description: "描述生命体因为某种人为或非人为因素而发生变异，并以此展开剧情的作品",
+          new_image: "",
+          image: "",
+          label: "进化变异",
+          fiction_count: 233,
+          category_id: 9000600,
+          channel: 1
+        },
+        {
+          description: "因为战争或科技失控，或某种意外灾难，人类文明被毁灭或即将毁灭，以此为背景的作品",
+          new_image: "",
+          image: "",
+          label: "末世危机",
+          fiction_count: 497,
+          category_id: 9000700,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 4,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01BWbO07ZPr/UaE2VHTQr8nTxO.jpg",
+      image: "",
+      label: "游戏",
+      fiction_count: 3229,
+      category_id: 10000000,
+      children: [
+        {
+          description: "描写职业玩家现实的电子游戏、网络游戏生活的作品",
+          new_image: "",
+          image: "",
+          label: "游戏生涯",
+          fiction_count: 1310,
+          category_id: 10000100,
+          channel: 1
+        },
+        {
+          description: "描绘职业玩家团队或个人，征战电子竞技比赛的作品",
+          new_image: "",
+          image: "",
+          label: "电子竞技",
+          fiction_count: 330,
+          category_id: 10000200,
+          channel: 1
+        },
+        {
+          description: "描写头盔式虚拟现实网游、未来世界网游生活的作品",
+          new_image: "",
+          image: "",
+          label: "虚拟网游",
+          fiction_count: 1005,
+          category_id: 10000300,
+          channel: 1
+        },
+        {
+          description: "将游戏中的装备或技能带入现实世界或其它游戏中，或者主角进入游戏世界中的作品",
+          new_image: "",
+          image: "",
+          label: "游戏异界",
+          fiction_count: 584,
+          category_id: 10000400,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 4,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01YbHx3llAs/Oij4pp5WQzKXid.jpg",
+      image: "",
+      label: "竞技",
+      fiction_count: 596,
+      category_id: 11000000,
+      children: [
+        {
+          description: "讲述传统体育竞技、比赛以及运动员成长或通过商业手段经营球队和运作相关公司的作品",
+          new_image: "",
+          image: "",
+          label: "体育竞技",
+          fiction_count: 227,
+          category_id: 11000100,
+          channel: 1
+        },
+        {
+          description: "讲述以篮球比赛为背景的作品",
+          new_image: "",
+          image: "",
+          label: "篮球运动",
+          fiction_count: 173,
+          category_id: 11000200,
+          channel: 1
+        },
+        {
+          description: "讲述以足球比赛为背景的作品",
+          new_image: "",
+          image: "",
+          label: "足球运动",
+          fiction_count: 183,
+          category_id: 11000300,
+          channel: 1
+        },
+        {
+          description: "讲述以棋类竞技为背景的作品",
+          new_image: "",
+          image: "",
+          label: "弈林春秋",
+          fiction_count: 13,
+          category_id: 11000400,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 3,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01nsU2QvzTr/Dt03dr3YYDZhgB.jpg",
+      image: "",
+      label: "职场",
+      fiction_count: 7135,
+      category_id: 13000000,
+      children: [
+        {
+          description: "真实或虚拟的娱乐圈历史变迁、娱乐事业沉浮、明星镜头前后故事的作品",
+          new_image: "",
+          image: "",
+          label: "娱乐明星",
+          fiction_count: 412,
+          category_id: 13000100,
+          channel: 1
+        },
+        {
+          description: "以官场为主题或背景，描绘为官为民的作品",
+          new_image: "",
+          image: "",
+          label: "官场沉浮",
+          fiction_count: 223,
+          category_id: 13000200,
+          channel: 1
+        },
+        {
+          description: "当代商场、创业、股市、金融等领域生活、冲突或在职场中男女的奋斗、生活、感慨人生的作品",
+          new_image: "",
+          image: "",
+          label: "商战职场",
+          fiction_count: 6500,
+          category_id: 13000300,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 4,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p01FmIS2K6Cf/YEldbDFpRKe8Hl.jpg",
+      image: "",
+      label: "同人",
+      fiction_count: 358,
+      category_id: 12000000,
+      children: [
+        {
+          description: "以武侠小说的背景、剧情或人物为基础，依托原著进行再创作的作品",
+          new_image: "",
+          image: "",
+          label: "武侠同人",
+          fiction_count: 56,
+          category_id: 12000100,
+          channel: 1
+        },
+        {
+          description: "以动漫作品的背景、剧情或人物为基础，依托原著进行再创作的作品",
+          new_image: "",
+          image: "",
+          label: "动漫同人",
+          fiction_count: 14,
+          category_id: 12000300,
+          channel: 1
+        },
+        {
+          description: "以游戏作品的背景、剧情或人物为基础，依托原著进行再创作的作品",
+          new_image: "",
+          image: "",
+          label: "游戏同人",
+          fiction_count: 48,
+          category_id: 12000400,
+          channel: 1
+        },
+        {
+          description: "以他人小说的背景、剧情或人物为基础，依托原著进行再创作的作品",
+          new_image: "",
+          image: "",
+          label: "小说同人",
+          fiction_count: 240,
+          category_id: 12000500,
+          channel: 1
+        }
+      ],
+      channel: 1
+    },
+    {
+      count: 2,
+      description: "",
+      new_image: "http://image.read.duokan.com/mfsv2/download/fdsc3/p011A6KXoPUi/CSWPz04rJEXa4s.jpg",
+      image: "",
+      label: "短篇",
+      fiction_count: 5,
+      category_id: 14000000,
+      children: [
+        {
+          description: "用以表述和描写电影、电视内容的剧本、台本、拍摄工作记录",
+          new_image: "",
+          image: "",
+          label: "影视剧本",
+          fiction_count: 1,
+          category_id: 14000100,
+          channel: 1
+        },
+        {
+          description: "散文随笔中自由而富有韵律的语词文体内容，以及描写旅行见闻的内容",
+          new_image: "",
+          image: "",
+          label: "美文游记",
+          fiction_count: 4,
+          category_id: 14000400,
+          channel: 1
+        }
+      ],
+      channel: 1
+    }
+  ]
+}

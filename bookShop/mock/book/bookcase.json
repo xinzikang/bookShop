@@ -1,0 +1,281 @@
+{
+  items: [
+    {
+      ad: 0,
+      word_count: 1532392,
+      owner: 0,
+      allow_discount: 0,
+      ad_time: 0,
+      click: 8803616,
+      score_count: 1008,
+      title: "诛仙",
+      on_sale: true,
+      comment_count: 0,
+      has_ad: 0,
+      ad_duration: 0,
+      latest_id: 259,
+      score: 8.41,
+      allow_free_read: 1,
+      rights_id: 10080,
+      channel: [
+        1
+      ],
+      updated: 1471676574,
+      finish: true,
+      tags: [
+        "诛仙",
+        "仙侠",
+        "古典仙侠"
+      ],
+      price: 5,
+      chapter_count: 260,
+      authors: "萧鼎",
+      categories: [
+        {
+          category_id: 4000000,
+          label: "仙侠"
+        },
+        {
+          category_id: 4000100,
+          label: "古典仙侠"
+        }
+      ],
+      rights: "阅文集团旗下起点中文网",
+      level: 0,
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01YqmjmWxtq/Eis58fZCsBFvXY.jpg",
+      summary: "【李易峰、赵丽颖主演同名电视剧《诛仙青云志》】这个故事，便是从“青云门”开始的。",
+      fiction_id: 319207,
+      outer_id: "56fb80a150e3a461ba642426",
+      latest: "新书《天影》"
+    },
+    {
+      ad: 0,
+      word_count: 2275067,
+      owner: 2,
+      allow_discount: 0,
+      ad_time: 0,
+      click: 791686,
+      score_count: 8,
+      title: "毒医世子妃",
+      on_sale: true,
+      comment_count: 0,
+      has_ad: 1,
+      ad_duration: 0,
+      latest_id: 790,
+      score: 4.25,
+      allow_free_read: 1,
+      rights_id: 10068,
+      channel: [
+        2
+      ],
+      updated: 1470960989,
+      finish: true,
+      tags: [
+        "毒医世子妃",
+        "现代言情",
+        "现代重生",
+        "异术超能",
+        "穿越架空"
+      ],
+      price: 3,
+      chapter_count: 791,
+      authors: "兰陵王",
+      categories: [
+        {
+          category_id: 130000,
+          label: "穿越架空"
+        },
+        {
+          category_id: 130300,
+          label: "现代重生"
+        },
+        {
+          category_id: 18000000,
+          label: "现代言情"
+        },
+        {
+          category_id: 18000600,
+          label: "异术超能"
+        }
+      ],
+      rights: "塔读文学网",
+      level: 0,
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01mgpZyXPMz/jQv7L4zA5rq7L9.jpg",
+      summary: "她是相府里最卑微的废柴嫡女，任人欺凌。一朝穿越，有冤报冤有仇报仇，欠了我的给我还回来，得罪我的给我欺...",
+      fiction_id: 345679,
+      outer_id: "57a3d96b50e3a41b0f26d213",
+      latest: "第七百九十章 曲终人散"
+    },
+    {
+      ad: 0,
+      word_count: 4072778,
+      owner: 2,
+      allow_discount: 0,
+      ad_time: 0,
+      click: 840494,
+      score_count: 37,
+      title: "神级大老板",
+      on_sale: true,
+      comment_count: 0,
+      has_ad: 1,
+      ad_duration: 0,
+      latest_id: 1969,
+      score: 7.02,
+      allow_free_read: 1,
+      rights_id: 10068,
+      channel: [
+        1
+      ],
+      updated: 1479262261,
+      finish: false,
+      tags: [
+        "神级大老板",
+        "都市情缘",
+        "爱情婚姻",
+        "热血都市",
+        "都市"
+      ],
+      price: 3,
+      chapter_count: 1970,
+      authors: "嚣张农民",
+      categories: [
+        {
+          category_id: 20000,
+          label: "热血都市"
+        },
+        {
+          category_id: 20100,
+          label: "都市情缘"
+        },
+        {
+          category_id: 5000000,
+          label: "都市"
+        },
+        {
+          category_id: 5000200,
+          label: "爱情婚姻"
+        }
+      ],
+      rights: "塔读文学网",
+      level: 0,
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p01LBM6BY89i/Sd413PC8OXoYL0.jpg",
+      summary: "你是经商奇才？你是科研狂人？你是修真人士？ 别嚣张！ 我只要一秒钟，就能把你变成对我忠心不二的手下。...",
+      fiction_id: 345702,
+      outer_id: "420906",
+      latest: "第1969章 执掌天地（大结局）"
+    },
+    {
+      ad: 0,
+      word_count: 2339418,
+      owner: 2,
+      allow_discount: 0,
+      ad_time: 0,
+      click: 981803,
+      score_count: 0,
+      title: "兼职少奶奶",
+      on_sale: true,
+      comment_count: 0,
+      has_ad: 1,
+      ad_duration: 0,
+      latest_id: 1093,
+      score: 0,
+      allow_free_read: 1,
+      rights_id: 10068,
+      channel: [
+        2
+      ],
+      updated: 1470961489,
+      finish: true,
+      tags: [
+        "兼职少奶奶",
+        "现代言情",
+        "婚恋情缘",
+        "婚姻家庭"
+      ],
+      price: 3,
+      chapter_count: 1094,
+      authors: "纳兰湘湘",
+      categories: [
+        {
+          category_id: 100000,
+          label: "现代言情"
+        },
+        {
+          category_id: 100200,
+          label: "婚姻家庭"
+        },
+        {
+          category_id: 18000000,
+          label: "现代言情"
+        },
+        {
+          category_id: 18000200,
+          label: "婚恋情缘"
+        }
+      ],
+      rights: "塔读文学网",
+      level: 0,
+      cover: "http://cover.read.duokan.com/mfsv2/download/fdsc3/p019mQ5X8pcI/nI09l0NvQ02uNN.jpg",
+      summary: "褚汐汐是一个新时代女性，有着崇高的理想，让她才毕业就踏入婚姻的牢笼，没门！ 更别说企图迎娶她的还是一...",
+      fiction_id: 345683,
+      outer_id: "57a3d96950e3a41b0f26d211",
+      latest: "【1091】汐汐大婚，嫦娥奔月"
+    },
+    {
+      ad: 0,
+      word_count: 5072475,
+      owner: 2,
+      allow_discount: 0,
+      ad_time: 0,
+      click: 1634059,
+      score_count: 76,
+      title: "修真之覆宇翻云",
+      on_sale: true,
+      comment_count: 9,
+      has_ad: 1,
+      ad_duration: 0,
+      latest_id: 1770,
+      score: 7.47,
+      allow_free_read: 1,
+      rights_id: 10068,
+      channel: [
+        1
+      ],
+      updated: 1480724530,
+      finish: false,
+      tags: [
+        "仙侠",
+        "古典仙侠"
+      ],
+      price: 3,
+      chapter_count: 1768,
+      authors: "飞舞激扬",
+      categories: [
+        {
+          category_id: 30000,
+          label: "武侠仙侠"
+        },
+        {
+          category_id: 30100,
+          label: "古典仙侠"
+        },
+        {
+          category_id: 4000000,
+          label: "仙侠"
+        },
+        {
+          category_id: 4000100,
+          label: "古典仙侠"
+        }
+      ],
+      rights: "塔读文学网",
+      level: 0,
+      cover: "http://cover.read.duokan.com/mfsv2/download/s010/p01r5DIeZY6f/M4OLEZsws34Irz.jpg",
+      summary: "一个为爱自废修为的绝世天才，机缘巧合附身豪门纨绔，且看他如何在美女如云的修真世界覆雨翻云。古玉在手，...",
+      fiction_id: 41421,
+      outer_id: "375690",
+      latest: "第一千七百六十八章 人算不如天算！"
+    }
+  ],
+  result: 0
+}
