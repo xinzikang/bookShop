@@ -308,7 +308,6 @@
         this.prefix = 'xzk-reader'; //加在本地存贮前面，防止重名覆盖
         this.isBgNight = true;
 
-        this.oText = $('#content')[0];
         this.iTextNum = this.getStorage('fontSize') || 16;
         this.oBigBtn = $('.bigFont');
         this.oSmallBtn = $('.smallFont');
@@ -327,9 +326,9 @@
         /*初始化*/
       init() {
           /*读取本地存储中的字体信息*/
-        this.oText.style.fontSize = this.iTextNum + 'px';
+        this.oContent.style.fontSize = this.iTextNum + 'px';
         this.eventHanlder();
-        this.readerModel(/*{bookId:'191865'}*/).getChapterContent();
+        this.readerModel().getChapterContent(1);
         this.readerModel().getChapterInfo();
       }
 
@@ -342,121 +341,176 @@
         /*设置本地存储*/
       setStorage(key, val) {
         return localStorage.setItem(this.prefix + key, val);
+      };
+
+      //获取小说解码后的json
+      getDeCodeJson(url,callback){
+        let that = this;
+        $.jsonp({
+          url: url,
+          cache: true,
+          callback: 'duokan_fiction_chapter',
+          success: function (result) {
+            var data = $.base64.decode(result);
+            var json = JSON.parse(decodeURIComponent(escape(data)));
+            console.log(json);
+            callback&&callback(that,json.t,json.p);
+          }
+        })
       }
 
-        /*与服务器相关的数据交互方法*/
-      readerModel(json) {  //{bookId:124227,cid: 22048520 }
-        json = json || {}; //为传入默认为一个空json
-        //设置时间格式函数
-        let time = function () {
-          var date = new Date();//服务器时间是以秒为单位。
-          var year = date.getFullYear();
-          var Month = date.getMonth() + 1;
-          var d = date.getDate();
-          var sen = date.getSeconds();
-          var min = date.getMinutes();
-          var Hou = date.getHours();
-          var str = year + tDou(Month) + tDou(d) + tDou(Hou) + tDou(min) + tDou(sen)
+        /*获取易源网上小说信息*/
+        /* /!*与服务器相关的数据交互方法*!/
+         readerModel(json) {  //{bookId:124227,cid: 22048520 }
+         json = json || {}; //为传入默认为一个空json
+         //设置时间格式函数
+         let time = function () {
+         var date = new Date();//服务器时间是以秒为单位。
+         var year = date.getFullYear();
+         var Month = date.getMonth() + 1;
+         var d = date.getDate();
+         var sen = date.getSeconds();
+         var min = date.getMinutes();
+         var Hou = date.getHours();
+         var str = year + tDou(Month) + tDou(d) + tDou(Hou) + tDou(min) + tDou(sen)
 
-          function tDou(n) {
-            return n < 10 ? '0' + n : '' + n;
-          }
+         function tDou(n) {
+         return n < 10 ? '0' + n : '' + n;
+         }
 
-          return str;
-        };
-        let opt = {
-          bookId: json.bookId || '124227', // 先后顺序：本地存储/传入值/默认值
-          cid: json.cid || '22048520',
-          showapiAppid: '33927',
-          showapiSign: 'ff2c5dbd7a774655a1007d049a746b53',
-          showapiTimestamp: time()
-        };
-        this.num = this.aChanpter.indexOf(json.cid)===-1? 0: this.aChanpter.indexOf(json.cid);
+         return str;
+         };
+         let opt = {
+         bookId: json.bookId || '124227', // 先后顺序：本地存储/传入值/默认值
+         cid: json.cid || '22048520',
+         showapiAppid: '33927',
+         showapiSign: 'ff2c5dbd7a774655a1007d049a746b53',
+         showapiTimestamp: time()
+         };
+         this.num = this.aChanpter.indexOf(json.cid)===-1? 0: this.aChanpter.indexOf(json.cid);
+         let that = this;
+
+         //获得小说信息
+         let getFictionInfo = function () {
+         $.ajax({
+         url: 'https://route.showapi.com/211-1',
+         success: function (data) {
+         if (data.result === 0) {
+         console.log(data);
+
+         }
+         }
+         })
+         };
+         //获取某一小说目录
+         let getChapterInfo = function () {
+         $.ajax({
+         url: 'https://route.showapi.com/211-1',
+         data: {
+         "bookId": opt.bookId,
+         "showapi_appid": opt.showapiAppid,
+         "showapi_sign": opt.showapiSign,
+         "showapi_timestamp": opt.showapiTimestamp
+         },
+         success: function (data) {
+         if(data.showapi_res_code === 0){
+         console.log(data.showapi_res_body.book.chapterList);
+         that.aChanpter = data.showapi_res_body.book.chapterList;
+         }
+         }
+         })
+         };
+         // 获得某一章节正文
+         let getChapterContent = function () {
+         that.setStorage('bookId', opt.bookId);  //设置本地存储
+         $.ajax({
+         url: 'http://route.showapi.com/211-4',
+         data: {
+         "bookId": opt.bookId,
+         "cid": opt.cid,
+         "showapi_appid": opt.showapiAppid,
+         "showapi_sign": opt.showapiSign,
+         "showapi_timestamp": opt.showapiTimestamp
+         },
+         success: function (data) {
+         console.log(data);
+         that.renderDOM(data.showapi_res_body.txt, data.showapi_res_body.cname);
+
+         }
+         })
+         };
+         //获取上一页
+         let getPrevContent = function () {
+         num--;
+         if(num<0){
+         num = 0;
+         }
+         console.log(that.aChanpter,num);
+         opt.cid = that.aChanpter[num].cid;
+         console.log(that.aChanpter,opt.cid);
+
+         //          that.getChapterContent();
+         };
+         //获取下一页
+         let getNextContent = function () {
+         num++;
+         if(num==that.aChanpter.length-1){
+         num = that.aChanpter.length-1;
+         }
+         opt.cid = that.aChanpter[num].cid;
+         };
+
+         return {
+         getFictionInfo,
+         getChapterContent,
+         getChapterInfo,
+         getPrevContent,
+         getNextContent
+         }
+         }*/
+
+        /*获取小米书城本地mock信息*/
+      readerModel() {
+        //获取小说目录
         let that = this;
-
-        //获得小说信息
-        let getFictionInfo = function () {
-          $.ajax({
-            url: 'https://route.showapi.com/211-1',
-            success: function (data) {
-              if (data.result === 0) {
-                console.log(data);
-
-              }
-            }
-          })
-        };
-        //获取某一小说目录
         let getChapterInfo = function () {
           $.ajax({
-            url: 'https://route.showapi.com/211-1',
-            data: {
-              "bookId": opt.bookId,
-              "showapi_appid": opt.showapiAppid,
-              "showapi_sign": opt.showapiSign,
-              "showapi_timestamp": opt.showapiTimestamp
-            },
+            url: '/code/data/chapter.json',
+            dataType: 'json',
             success: function (data) {
-              if(data.showapi_res_code === 0){
-                console.log(data.showapi_res_body.book.chapterList);
-                that.aChanpter = data.showapi_res_body.book.chapterList;
-              }
+              console.log(111);
             }
           })
         };
         // 获得某一章节正文
-        let getChapterContent = function () {
-          that.setStorage('bookId', opt.bookId);  //设置本地存储
+        let getChapterContent = function (chapterId) {
+//          that.setStorage('bookId', opt.bookId);  //设置本地存储
           $.ajax({
-            url: 'http://route.showapi.com/211-4',
-            data: {
-              "bookId": opt.bookId,
-              "cid": opt.cid,
-              "showapi_appid": opt.showapiAppid,
-              "showapi_sign": opt.showapiSign,
-              "showapi_timestamp": opt.showapiTimestamp
-            },
+            url: '/code/data/data'+chapterId+'.json',
             success: function (data) {
               console.log(data);
-              that.renderDOM(data.showapi_res_body.txt, data.showapi_res_body.cname);
+              let url = data.jsonp;
+              that.getDeCodeJson(url,that.renderDOM);
 
             }
           })
         };
-        //获取上一页
-        let getPrevContent = function () {
-          num--;
-            if(num<0){
-              num = 0;
-            }
-            console.log(that.aChanpter,num);
-            opt.cid = that.aChanpter[num].cid;
-          console.log(that.aChanpter,opt.cid);
 
-//          that.getChapterContent();
-        };
-        //获取下一页
-        let getNextContent = function () {
-          num++;
-          if(num==that.aChanpter.length-1){
-            num = that.aChanpter.length-1;
-          }
-          opt.cid = that.aChanpter[num].cid;
-        };
 
         return {
-          getFictionInfo,
           getChapterContent,
-          getChapterInfo,
-          getPrevContent,
-          getNextContent
+          getChapterInfo
         }
-      }
+      };
 
         /*结构渲染*/
-      renderDOM(content, title) {
-        $(this.oContent).html(content);
-        $(this.oTitle).html(title);
+      renderDOM(obj,title,content ) {
+        $(obj.oTitle).html(title);
+        let contentHtml = '';
+        content.forEach((item) => {
+          contentHtml += '<p>' + item + '</p>';
+        });
+        $(obj.oContent).html(contentHtml);
       }
 
         /*事件函数*/
@@ -496,7 +550,7 @@
           if (that.iTextNum > 20) {
             that.iTextNum = 20;
           }
-          that.oText.style.fontSize = that.iTextNum + 'px';
+          that.oContent.style.fontSize = that.iTextNum + 'px';
           that.setStorage('fontSize', that.iTextNum);
         });
         this.oSmallBtn.on('click', function () {
@@ -504,29 +558,34 @@
           if (that.iTextNum < 12) {
             that.iTextNum = 12;
           }
-          that.oText.style.fontSize = that.iTextNum + 'px';
+          that.oContent.style.fontSize = that.iTextNum + 'px';
           that.setStorage('fontSize', that.iTextNum);
         });
           /*点击切换背景*/
         $(this.aBgBtn[1]).on('click', function () {
-          that.oText.style.color = '#000';
+          that.oTitle.style.color = '#000';
+          that.oContent.style.color = '#000';
           that.oBody.style.backgroundColor = 'rgba(13,204,226,0.2)';
         });
         $(this.aBgBtn[2]).on('click', function () {
-          that.oText.style.color = '#000';
+          that.oTitle.style.color = '#000';
+          that.oContent.style.color = '#000';
           that.oBody.style.backgroundColor = 'rgb(233,223,199)';
         });
         $(this.aBgBtn[3]).on('click', function () {
           that.oBody.style.backgroundColor = 'rgba(255,217,6,0.2)';
-          that.oText.style.color = '#000';
+          that.oTitle.style.color = '#000';
+          that.oContent.style.color = '#000';
         });
         $(this.aBgBtn[4]).on('click', function () {
           that.oBody.style.backgroundColor = 'rgba(242,0,185,0.2)';
-          that.oText.style.color = '#000';
+          that.oContent.style.color = '#000';
+          that.oTitle.style.color = '#000';
         });
         $(this.aBgBtn[5]).on('click', function () {
           that.oBody.style.backgroundColor = 'rgba(64,64,64,0.8)';
-          that.oText.style.color = '#fff';
+          that.oContent.style.color = '#fff';
+          that.oTitle.style.color = '#fff';
           that.oSwchemaText[0].innerHTML = '白天';
         });
         this.oSwchemaBtn.on('click', function () {
@@ -534,14 +593,16 @@
             that.isBgNight = !that.isBgNight;
             that.oSwchemaText[0].innerHTML = '白天';
             that.oBody.style.backgroundColor = 'rgba(64,64,64,0.8)';
-            that.oText.style.color = '#fff';
+            that.oContent.style.color = '#fff';
+            that.oTitle.style.color = '#fff';
             that.oSwchemaBtn[0].style.background = 'url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkNFN0E3M0I0Mjc4NDExRTU5RkYxQjg1Rjk2QkEyNzBEIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOkNFN0E3M0I1Mjc4NDExRTU5RkYxQjg1Rjk2QkEyNzBEIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6Q0U3QTczQjIyNzg0MTFFNTlGRjFCODVGOTZCQTI3MEQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6Q0U3QTczQjMyNzg0MTFFNTlGRjFCODVGOTZCQTI3MEQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz6o6V5PAAADu0lEQVR42uyaTUgVURTHm/cigiS1LEitoHoqbgtcZAStngtDoYxa9rFsYYuWfUBhuSjCneiylkH2oavoEZlC4aYsM9toakWLnpsWyfQfOMJrOvdjZs6bedQc+OF7d9499/y9M/fj3HFc110Xo3WAYfp8BozG0agTs8hFsIM+L4H6f1GkvzEnjkYz6/4DS0WmIlORSlsq+bxcKSI3gkHwBlwSGA3PkrjPNE+GnhXAZYprkOLUjOmYQjT0un/aMHAMdcqNQ3GUWq+ujqknt/i+nwZDcc1vih4cojh0cQbqyQaw4P5tSfQo14OezYNGXV0b5zly5Le+mEX2KQTmTHVtl3U58BQ0lpQtgJ2Gei2gE7SDVrANVIMf4Bt4B56Dh+C9wdc80/4RMGteTNr/J/09+lhzW3WBCTeYTVA91WPwKGgPBrldS9kFBkA/qGOuN4FnbjTz6jczvuuoXa/93UHilnxmjoMVV8ZWyJ9IbFICz4FVV9ZWyW9FiDwGfmmCnQIXQBuoBxvobxuVT2nqen57khbpPYNFRYBzoNtiPnXod3MKP0VqJxGRjmaQGQXVAf1VUz3VYOQkIbJLEdADkA3pM0v1OetKQuQ4E8gHUBXxEfDqzzC+x+MW2aL4b+eFRuu8wn9LGH9hN82dTNlrMCa02xgjf347GmdmoJ0puyu8rbrHlB2MU2QrUzYuLLJg2a6VyA7KbLsMi3Tdb9sVuwRJ+2TZrjF+b+4pTd2rkk/1hky4Z+vBapkz7lzW3Ri/ze3KpTqKTNlmYYG1TNlKmJRJpiSDxpkqq/aVKdsrLHIPU/ZFkwFUxu/dYk8M3c3ZNNjnKzsEXgmKPKxo12/G+MOOri+YslPCPXnSst2yTSEjTNkBkBcSmCd/Nu1aDF/hl15cDmdGYO26SXrtGuUs5AZT1kQrn2xIn1la6TQx1/rDT0TR9pMFxUL6fogeraJ6nBWS2k+uZQZUyauPtOO38dNNv1cltZqTzvH0WOZ49oMaqlND321yPCfSbF2ad5UXufaMFiIKLER9BqOK9Ea4m2CZEk61mrOQyYDiJjUpzFpqb5nad8olkjsfvG6RC7oIRsBsSY62SN9H6Lopd3MtyvmorcCM4gD0dkxnk7eiHARHEWg84RWkUXPinZEQeSXsCa8wOYXQqxIi31aAQN3R/rTEAv1lqCNs3taSTqoEmclmqf2FIFlCm3cGvBeBzoOt4I7vraqgJvW+awPF9B0MgJ9RRZYz+5a+75qKTEWmIstuFfm+q7RJve8ayH4LMACaxEJEaXs23AAAAABJRU5ErkJggg==") no-repeat center center';
             that.oSwchemaBtn[0].style.backgroundSize = 'contain';
           } else {
             that.isBgNight = !that.isBgNight;
             that.oSwchemaText[0].innerHTML = '夜晚';
             that.oBody.style.backgroundColor = 'rgb(233,223,199)';
-            that.oText.style.color = '#000';
+            that.oContent.style.color = '#000';
+            that.oTitle.style.color = '#000';
             that.oSwchemaBtn[0].style.background = 'url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyNpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOkU2OUYzRUEwMjc4NzExRTU5RkYxQjg1Rjk2QkEyNzBEIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjhBMzA2RjA2Mjc4QTExRTU5RkYxQjg1Rjk2QkEyNzBEIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RTY5RjNFOUUyNzg3MTFFNTlGRjFCODVGOTZCQTI3MEQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RTY5RjNFOUYyNzg3MTFFNTlGRjFCODVGOTZCQTI3MEQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz4v5YACAAAC/UlEQVR42tSaXYhNURTH97kzRnJ9ZTQzPh7IMEr5yshHEwkRkSeSjweEiMjDePTkhcKLPCApUV54GxTKcDM0JfL9QE0UGdcdEmb7L3edOq5zzz1nn332Pvdfv5e5Z9Zd666711577etIKYUGjQILwRwwDOwDfcKAamP873CwBawDrcABP8ACU87/FWUgIk3gKMjL/7VfwV4sojxcCw6AL9JfD0DGdABhv0KTwAUwO+CZvaBfGFaYAJaDyyAb8Mwt0CksKFPh9W3gWgXnSSeFJTkBZXQrOM3VJUi9oJErUGoysBKcCuE86YYt58sF0MILtiakjTvCojI+i/o876Zh9ThNARysUCr99NpmAN5FTAvxBRgS0QZlK5+GDLQrOC9sOu/NADVm70LU+9RmYJOi8yLigk8sgPUxbEy0HUATH0RUNdV2AG0hd9xyarMdwNyYNhaDOpsBTI5pYwRYYTMAHYtwh80ARmqws1ShBdEWwGAdGyI4HrMYKAegawFSMdhlo5XIK/ZAfvoO5oFukxn4oNHeID5DjzUZwCvNNsn5DjDOVADPErA7BdwF0xP2v4YCyCVknDJwjxe2k8AHT4O0VTSeawD9Mll1glZN48T5IMc+N7p/7JJm1AFWg4ERna4Da8F1j62cdzZKY5RZBtbcEuYzuAlugyfgOSjwyS7LJ8QJYJoojuuX+RycLnqPlPXgLZfBalCB11iveyL7CM6K6tEZURxp/jNWGc2pzFbBp98M3peOVXrA4Sr49I+4zpdmgDSA94UZKXX+ITeNP8sFIDg9XWBoypyni0O6THzqN1bx6iXYCH6nyHnyZXOp8+UCIF0Fe1LiPH1FdoMr/q8G74DbwS9pT/TeO+Nes64JuFpNUl+5fdByT9wMHhl0vhu06L7opobqEPiWoON9oJ0v1bXf1LuMAcdAQbPjJ6g9juqPE+PXKvVcbjeAmQqHFsmb5iVwzu1tVKYSOkpdA1jEU246To4XxZ/gZLlUU5v8CbzhI+x9bqV74r7xHwEGAPDRVwnecW5KAAAAAElFTkSuQmCC") no-repeat center center';
             that.oSwchemaBtn[0].style.backgroundSize = 'contain';
           }
