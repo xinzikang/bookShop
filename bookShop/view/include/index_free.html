@@ -1,10 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<div class="hot-wrapper model-wrapper">
+    <div class="hot-title index-title">
+        <span class="index-title-text">限时免费</span>
+    </div>
+    <div class="hot-content">
+        <ul class="book-list">
+            <li class="book-item" @click="gotoDetail(bookItem.fiction_id)" v-for="(bookItem,index) in free.data.data">
+                <div class="book-cover">
+                    <img :src="bookItem.data.cover" :alt="bookItem.data.title" />
+                    <div class="free-icon"></div>
+                    <div class="book-title">{{bookItem.data.title}}</div>
+                </div>
 
-</body>
-</html>
+            </li>
+        </ul>
+    </div>
+    <div class="hot-bottom index-bottom">
+        <a href="javascripr:;">查看全部 &gt</a>
+    </div>
+</div>

@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <style>
+        .search{
+            width:100%;
+            height:100%;
+        }
+        .search .top{
+            height: 44px;
+            background: #efeff0;
+            border-bottom: 1px solid #ddd;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        .search .top__back{
+            float: left;
+            width: 42px;
+            height: 44px;
+            color: #333;
+        }
+        .top__back:before {
+            content: '';
+            display: block;
+            margin: 15px 0 0 16px;
+            width: 10px;
+            height: 16px;
+            background: url('http://dushu.xiaomi.com/x0D0GrWs.png') no-repeat;
+            background-size: 10px 16px;
+        }
+        .search-input {
+            position: relative;
+            margin: 5px 20px 5px 42px;
+            height: 35px;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+        }
+        .search-input .search-input__mi {
+            background: url(http://image.read.duokan.com/mfsv2/download/s010/p01TjruXIhgt/PP13pEqhpChuay.png) no-repeat center;
+            background-size: 16px 16px;
+        }
+        .search-input b{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 36px;
+            height: 35px;
+            border-right: 1px solid rgba(0, 0, 0, 0.1);
+        }
+        .search-input input {
+            border: none;
+            box-sizing: border-box;
+            display: block;
+            width: 100%;
+            height: 100%;
+            padding: 8px 52px 8px 42px;
+            font-size: 14px;
+            color: rgba(0, 0, 0, 0.8);
+            background: #fff;
+        }
+        .search-input__btn {
+            display: block;
+            line-height: 36px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            border-left: 1px solid #ddd;
+            padding: 0 8px;
+            font-size: 14px;
+            color: #666;
+        }
+        .top__bd {
+            position: absolute;
+            top: 45px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            overflow: auto;
+        }
+        .search-tag {
+            padding: 17px;
+        }
+        .m-tag {
+            line-height: 1;
+            overflow: hidden;
+        }
+        .m-tag .u-tag {
+            display: inline-block;
+            width: auto;
+            line-height: 1.8em;
+            padding: 0 20px;
+            color: #766d5d;
+            border-radius: 4px;
+            background: #fbebe8;
+            font-size: 14px;
+            text-align: center;
+            border: 1px solid #d3d3d3;
+            margin: .4em 0;
+        }
+    </style>
+</head>
+<body>
+<div id="search-root">
+    <div class="search">
+        <div class="top"><a href="javascript:history.back()" class="top__back"></a>
+            <div id="search-input" class="search-input">
+                <b class="search-input__mi"></b>
+                <input type="text"  id="searchText" value="" placeholder="输入书名/作者/关键字">
+                <div class="search-input__btn" @click="doSearch">搜索</div>
+            </div>
+        </div>
+        <div class="top__bd">
+            <div >
+                <ul class="m-tag -color search-tag">
+                    <li class="u-tag" >如果蜗牛有爱情</li>
+                    <li class="u-tag" >择天记</li>
+                    <li class="u-tag" >一夜弃妃</li>
+                    <li class="u-tag" >诛仙</li>
+                    <li class="u-tag" >豪门小老婆</li>
+                    <li class="u-tag" >异能小农民</li>
+                    <li class="u-tag" >武动乾坤</li>
+                    <li class="u-tag" >别那么骄傲</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src="../static/js/vue.js"></script>
+<script src="../static/js/zepto.min.js"></script>
+<script src="../static/js/pages/search.js"></script>

@@ -2,25 +2,57 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../static/css/reset.css">
-    <title>书城首页</title>
+    <link rel="stylesheet" href="../static/css/all.css">
+    <title><%= title%></title>
 </head>
 <body>
-<div id="root">
-    <% include include/header.html %>
-    <div>
-        <% include include/index_top.html %>
-        <% include include/index_hot.html %>
-        <% include include/index_recommend.html %>
-        <% include include/index_female.html %>
-        <% include include/index_male.html %>
-        <% include include/index_free.html %>
+<div id="root" style="width: 100%">
+    <div class="swiper-container">
+        <% include include/header.html %>
+        <div class="swiper-wrapper" style="width: 200%">
+            <div class="swiper-slide index-warpper" style="position:relative; top: 44px;width: 100%;overflow: hidden;">
+                <% include include/index_top.html %>
+                <% include include/index_hot.html %>
+                <% include include/index_recommend.html %>
+                <% include include/index_female.html %>
+                <% include include/index_male.html %>
+                <% include include/index_free.html %>
+            </div>
+            <div class="swiper-slide" style="position:absolute;top: 34px; right: 0;">
+                <div style="display: none" id="book-case">
+                    <div class="search" @click="gotoSearch">
+                        <a href="javascript:;">输入书名/作者/关键字</a>
+                    </div>
+                    <ul class="bookcase-ul">
+                        <li v-for="item in bookcase" class="bookcase-li" @click="gotoDetail(item.fiction_id)">
+                            <div class="bookcase-wrapper">
+                                <div class="book-cover">
+                                    <img
+                                        :alt="item.title"
+                                        :src="item.cover">
+                                </div>
+                                <div class="info">
+                                    <h3 class="title single-line">{{item.title}}</h3>
+                                    <p class="author single-line">{{item.authors}}</p>
+                                    <p class="extra single-line">{{item.latest}}</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </div>
+
 </div>
 <script src="../static/js/zepto.min.js"></script>
+<script src="../static/js/swiper.jquery.min.js"></script>
 <script src="../static/js/vue.js"></script>
 <script src="../static/js/pages/index.js"></script>
 </body>

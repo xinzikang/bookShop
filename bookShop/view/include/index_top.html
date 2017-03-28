@@ -1,52 +1,6 @@
-<style>
-.top-home{
-    background-color: #fff;
-    border-bottom: 10px solid #f5f5f5;
-    position: relative;
-    top: 44px;
-}
-    .search{
-        margin: 10px 13px;
-        padding: 1px 0 0 30px;
-        font: 11px/33px a;
-        color: rgba(0, 0, 0, 0.4);
-        background: url(http://image.read.duokan.com/mfsv2/download/fdsc3/p01dSYLeWtSR/tY73MgTfVw7UAS.png) no-repeat 8px center;
-        background-size: 14px;
-        border: 1px solid #f5f5f5;
-        border-radius: 2px;
-    }
-    .search a{
-        display: inline-block;
-        height:100%;
-        width:100%;
-    }
-    .slider-banner img{
-        width:100%;
-    }
-    .top-home-btn{
-        margin: 14px 0 4px;
-        display: flex;
-        width: 100%;
-    }
-    .top-home-btn li{
-        flex:1;
-        line-height: 2.4;
-        font-size: 12px;
-        text-align: center;
-    }
-    .top-home-btn li img{
-        display: block;
-        margin: 0 auto;
-        height: 22px;
-        width: 22px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 22px;
-        vertical-align: -5px;
-    }
-</style>
+
 <div class="top-home">
-    <div class="search">
+    <div class="search" @click="gotoSearch">
         <a href="javascript:;">输入书名/作者/关键字</a>
     </div>
     <div class="slider-banner">

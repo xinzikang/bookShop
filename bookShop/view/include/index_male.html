@@ -1,10 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="male-wrapper model-wrapper">
+    <div class="male-title index-title">
+        <span class="index-title-text">男生最爱</span>
+    </div>
+    <div class="male-content index-content">
+        <ul class="book-list">
+            <li class="book-item" @click="gotoDetail(bookItem.fiction_id)" v-for="(bookItem,index) in male.data.data" v-if="index >= 0 && index <= 7">
+                <div class="book">
+                    <div class="book-cover">
+                        <img :src="bookItem.cover" :alt="bookItem.title">
+                    </div>
+                    <div class="book-info">
+                        <p class="book-title">{{bookItem.title}}</p>
+                        <p class="book-author">{{bookItem.authors}}</p>
+                        <p class="book-summary">{{bookItem.summary}}</p>
+                        <ul class="mark-list" >
+                            <li class="mark-item" v-for="tagsItem in bookItem.tags">{{tagsItem}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="index-bottom recommend-bottom">
+        <a href="javascripr:;">换一换</a>
+        <a href="javascripr:;">男生频道 &gt</a>
+    </div>
+</div>

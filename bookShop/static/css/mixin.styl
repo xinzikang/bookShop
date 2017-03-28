@@ -1,0 +1,46 @@
+bg-img($url)
+  background-image: url($url + "@2x.png")
+  @media (-webkit-min-device-pixel-ratio: 3), (min-device-pixel-ratio: 3)
+    background-image: url($url + "@3x.png")
+/* 周围一像素边框 */
+border($color)
+  border-width: 1px
+  border-style: solid
+  border-color: $color
+/* 底部一像素边框 */
+border-1px($color)
+  position: relative
+  &:after
+    display: block
+    content: ''
+    position: absolute
+    bottom: 0
+    left:0
+    border-top: 1px solid $color
+    width: 100%
+
+/* 右侧一像素边框 */
+border-1px-right($color)
+  position: relative
+  &:after
+    display: block
+    content: ''
+    position: absolute
+    bottom: 0
+    top: 0
+    right:0
+    border-left: 1px solid $color
+    height: 100%
+
+/* 顶部一像素边框 */
+border-1px-top($color)
+  position: relative
+  &:before
+    display: block
+    content: ''
+    position: absolute
+    left: 0
+    bottom: 100%
+    right:0
+    border-bottom: 1px solid $color
+    height: 100%

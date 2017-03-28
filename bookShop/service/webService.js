@@ -39,10 +39,30 @@ exports.get_free_data = function () {
 //得到某一本书的具体详细信息，注意此时需要传递书籍的id,需要给传递的id做容错处理
 exports.get_detail_data = function (id) {
   //此处id需要容错，如果没有传入i或者id不合法，则给id一个默认值
-  var content = fs.readFileSync('./mock/detail/'+ id +'.json','utf-8');
+  if(!id){
+    id = 352876;
+  }
+  let content = null;
+  if(fs.existsSync('./mock/detail/'+ id +'.json')) { //如果存在文件夹
+    content = fs.readFileSync('./mock/detail/'+ id +'.json','utf-8');
+  } else{
+    content = fs.readFileSync('./mock/detail/352876.json','utf-8');
+  }
   return content;
 };
 
+exports.get_chapter_data = function () {
+  let content = fs.readFileSync('./mock/reader/chapter.json','utf-8');
+  return content;
+};
+exports.get_reader_content = function (chapterId) {
+  //此处id需要容错，如果没有传入i或者id不合法，则给id一个默认值
+  if(!chapterId){
+    chapterId = 1;
+  }
+  let content = fs.readFileSync('./mock/reader/data'+ chapterId +'.json','utf-8');
+  return content;
+};
 
 exports.get_search_data =function (start,end,keyword) { //获取线上接口
   return function (cb) { //返回的是一个异步函数
