@@ -3,9 +3,16 @@
     <div class="search" @click="gotoSearch">
         <a href="javascript:;">输入书名/作者/关键字</a>
     </div>
-    <div class="slider-banner">
-        <div>
-            <img src="http://t1.market.xiaomi.com/thumbnail/jpeg/l640/Duokan/022eeb499c82646e623567bba76a8b21ff699f9b9?" alt="">
+    <div class="slider-banner" :style="{width:single_width,height:banner_height}">
+        <div class="banner-swiper-container" :style="{height:banner_height}">
+            <ul class="swiper-wrapper">
+                <li class="swiper-slide"
+                    v-for=" item in top.data.data" v-if="item.ad_pic_url!=''"
+                    :style="{width:single_width,height:banner_height}"
+                >
+                    <img :src="item.ad_pic_url" alt="banner">
+                </li>
+            </ul>
         </div>
     </div>
     <ul class="top-home-btn">

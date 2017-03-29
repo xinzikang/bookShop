@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/all.css">
     <style>
         .search{
             width:100%;
@@ -102,7 +103,7 @@
             font-size: 14px;
             text-align: center;
             border: 1px solid #d3d3d3;
-            margin: .4em 0;
+            margin: .4em .4em;
         }
     </style>
 </head>
@@ -112,21 +113,30 @@
         <div class="top"><a href="javascript:history.back()" class="top__back"></a>
             <div id="search-input" class="search-input">
                 <b class="search-input__mi"></b>
-                <input type="text"  id="searchText" value="" placeholder="输入书名/作者/关键字">
-                <div class="search-input__btn" @click="doSearch">搜索</div>
+                <input type="text"  id="searchText" v-model="search_text" placeholder="输入书名/作者/关键字">
+                <div class="search-input__btn" @click="doSearch('')">搜索</div>
             </div>
         </div>
         <div class="top__bd">
-            <div >
+            <div v-if="search_result.length === 0">
                 <ul class="m-tag -color search-tag">
-                    <li class="u-tag" >如果蜗牛有爱情</li>
-                    <li class="u-tag" >择天记</li>
-                    <li class="u-tag" >一夜弃妃</li>
-                    <li class="u-tag" >诛仙</li>
-                    <li class="u-tag" >豪门小老婆</li>
-                    <li class="u-tag" >异能小农民</li>
-                    <li class="u-tag" >武动乾坤</li>
-                    <li class="u-tag" >别那么骄傲</li>
+                    <li class="u-tag" v-for="liItem in li_val" @click="doSearch(liItem)">{{liItem}}</li>
+                </ul>
+            </div>
+            <div class="search-result index-content" v-if="search_result.length !== 0">
+                <ul>
+                    <li class="book-item" @click="gotoDetail(result.fiction_id)" v-for="(result,index) in search_result">
+                        <div class="book">
+                            <div class="book-cover">
+                                <img :src="result.cover" :alt="result.title">
+                            </div>
+                            <div class="book-info">
+                                <p class="book-title">{{result.title}}</p>
+                                <p class="book-author">{{result.role[0][1]}}</p>
+                                <p class="book-summary">{{result.intro}}</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </div>

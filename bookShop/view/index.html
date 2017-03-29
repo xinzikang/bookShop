@@ -23,7 +23,7 @@
                 <% include include/index_male.html %>
                 <% include include/index_free.html %>
             </div>
-            <div class="swiper-slide" style="position:absolute;top: 34px; right: 0;">
+            <div class="swiper-slide" style="position:absolute;top: 44px; right: 0;">
                 <div style="display: none" id="book-case">
                     <div class="search" @click="gotoSearch">
                         <a href="javascript:;">输入书名/作者/关键字</a>
@@ -37,9 +37,9 @@
                                         :src="item.cover">
                                 </div>
                                 <div class="info">
-                                    <h3 class="title single-line">{{item.title}}</h3>
-                                    <p class="author single-line">{{item.authors}}</p>
-                                    <p class="extra single-line">{{item.latest}}</p>
+                                    <h3 class="title single-line" v-cloak>{{item.title}}</h3>
+                                    <p class="author single-line" v-cloak>{{item.authors}}</p>
+                                    <p class="extra single-line" v-cloak>{{item.latest}}</p>
                                 </div>
                             </div>
                         </li>

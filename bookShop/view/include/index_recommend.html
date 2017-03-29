@@ -1,34 +1,41 @@
 <div class="recommend-wrapper model-wrapper">
     <div class="recommend-title index-title">
         <span class="index-title-text">重磅推荐<em>荐</em></span>
-        <a href="javascript:;" class="active">男</a>
+        <a href="javascript:;" class="active" ref="maleBtn" @click="tabToMale">男</a>
         <span class="line"></span>
-        <a href="javascript:;">女</a>
+        <a href="javascript:;" @click="tabToFemale" ref="femaleBtn">女</a>
     </div>
     <div class="recommend-content index-content">
         <ul class="book-list">
-            <li class="book-item" @click="gotoDetail(bookItem.fiction_id)" v-for="(bookItem,index) in recommend.data.data" v-if="index === 0">
+            <li class="book-item" @click="gotoDetail(bookItem.fiction_id)"
+                v-for="(bookItem,index) in recommend_show"
+                v-if="index === 0"
+            >
                 <div class="book">
                     <div class="book-cover">
                         <div class="book-order">1</div>
-                        <img :src="bookItem.cover" :alt="bookItem.title">
+                        <img :src="bookItem.cover" :alt="bookItem.title" />
                     </div>
                     <div class="book-info">
-                        <p class="book-title">{{bookItem.title}}</p>
-                        <p class="book-author">{{bookItem.authors}}</p>
-                        <p class="book-summary">{{bookItem.summary}}</p>
+                        <p class="book-title" v-cloak>{{bookItem.title}}</p>
+                        <p class="book-author" v-cloak>{{bookItem.authors}}</p>
+                        <p class="book-summary" v-cloak>{{bookItem.summary}}</p>
                         <ul class="mark-list" >
-                            <li class="mark-item" v-for="tagsItem in bookItem.tags">{{tagsItem}}</li>
+                            <li class="mark-item" v-cloak v-for="tagsItem in bookItem.tags">{{tagsItem}}</li>
                         </ul>
                     </div>
                 </div>
             </li>
-            <li class="book-item" @click="gotoDetail(bookItem.fiction_id)" v-for="(bookItem,index) in recommend.data.data" v-if="index > 0 && index < 5">
+            <li class="book-item"
+                @click="gotoDetail(bookItem.fiction_id)"
+                v-for="(bookItem,index) in recommend_show"
+                v-if="index > 0&& index < 5"
+            >
                 <div class="book">
-                    <div class="book-info">
-                        <span class="index-num">0{{index+1}}</span>
-                        <span class="book-title">{{bookItem.title}}</span>
-                        <span class="book-author">{{bookItem.authors}}</span>
+                    <div class="book-info" style="white-space: nowrap;">
+                        <span class="index-num" v-cloak>0{{index+1}}</span>
+                        <span class="book-title" v-cloak>{{bookItem.title}}</span>
+                        <span class="book-author" v-cloak>{{bookItem.authors}}</span>
                     </div>
                 </div>
             </li>
