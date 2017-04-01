@@ -1,18 +1,24 @@
+<!--<link rel="stylesheet" href="../static/css/swiper-3.4.2.min.css">-->
 
 <div class="top-home">
     <div class="search" @click="gotoSearch">
         <a href="javascript:;">输入书名/作者/关键字</a>
     </div>
-    <div class="slider-banner" :style="{width:single_width,height:banner_height}">
-        <div class="banner-swiper-container" :style="{height:banner_height}">
+    <div class="slider-banner" >
+        <div class="banner-swiper-container"
+             :style="{width:single_width,height:banner_height}"
+        >
             <ul class="swiper-wrapper">
                 <li class="swiper-slide"
-                    v-for=" item in top.data.data" v-if="item.ad_pic_url!=''"
+                    v-for=" (item,index) in top.data.data" v-if="index>=0 && index<3"
                     :style="{width:single_width,height:banner_height}"
                 >
-                    <img :src="item.ad_pic_url" alt="banner">
+                    <img :src="item.ad_pic_url" alt="banner"
+                         :style="{width:single_width,height:banner_height}"
+                    >
                 </li>
             </ul>
+            <div class="swiper-pagination"></div>
         </div>
     </div>
     <ul class="top-home-btn">

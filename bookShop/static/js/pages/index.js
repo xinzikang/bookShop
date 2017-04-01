@@ -32,9 +32,6 @@ $.ajax({
       created(){
         this.showChange()
       },
-      beforeMounted(){
-
-      },
       mounted() {
         let that = this;
         let oBody = $('body');
@@ -45,10 +42,9 @@ $.ajax({
         let oTabBookCase = $('#bookcase_header')[0];
         let iBookCaseHei = oBookCase.height();
         let iIndexHei = oIndexWarpper.height();
-        let oBannerContainer = $('.banner-swiper-container');
-        let oBannerLi = $('.banner-swiper-container').find('li');
-        console.log(oBannerLi)
-        oBannerContainer.width(oBannerLi.length*this.window_width);
+        let oBannerUl = $('.top-home').find('.swiper-wrapper');
+        let oBannerLi = oBannerUl.find('li');
+        oBannerUl.width(oBannerLi.length*this.window_width);
         let mySwiper = new Swiper ('.swiper-container', {
           direction: 'horizontal',
           loop: false,
@@ -66,7 +62,7 @@ $.ajax({
             }
             if(mySwiper.activeIndex === 1){ //当前活动块的索引为0表示bookcase展示
              console.log('书架也');
-              oTabBar.style.left = '64%';
+              oTabBar.style.left = '66%';
               oTabIndex.className = '';
               oTabBookCase.className = 'active';
              oIndexWarpper.height(iBookCaseHei);
@@ -94,7 +90,12 @@ $.ajax({
         });
         let bannerSwiper = new Swiper('.banner-swiper-container',{
           direction: 'horizontal',
-          loop: true
+          loop: false,
+          pagination: '.swiper-pagination',
+          paginationClickable: true,
+          centeredSlides: true,
+          autoplay: 2500,
+          autoplayDisableOnInteraction: false
         })
       },
       methods: {

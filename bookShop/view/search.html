@@ -118,9 +118,9 @@
             </div>
         </div>
         <div class="top__bd">
-            <div v-if="search_result.length === 0">
+            <div v-if="search_result.length === 0" v-cloak>
                 <ul class="m-tag -color search-tag">
-                    <li class="u-tag" v-for="liItem in li_val" @click="doSearch(liItem)">{{liItem}}</li>
+                    <li class="u-tag" v-for="liItem in li_val" v-cloak @click="doSearch(liItem)">{{liItem}}</li>
                 </ul>
             </div>
             <div class="search-result index-content" v-if="search_result.length !== 0">
@@ -131,9 +131,9 @@
                                 <img :src="result.cover" :alt="result.title">
                             </div>
                             <div class="book-info">
-                                <p class="book-title">{{result.title}}</p>
-                                <p class="book-author">{{result.role[0][1]}}</p>
-                                <p class="book-summary">{{result.intro}}</p>
+                                <p class="book-title" v-cloak>{{result.title}}</p>
+                                <p class="book-author" v-cloak>{{result.role[0][1]}}</p>
+                                <p class="book-summary" v-cloak>{{result.intro}}</p>
                             </div>
                         </div>
                     </li>
